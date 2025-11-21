@@ -1,0 +1,806 @@
+% preámbulo
+
+\documentclass[titlepage,12pt]{article} %% tamaño del texto
+\usepackage[spanish]{babel} %% idioma
+\usepackage[a4paper]{geometry} %% márgenes
+\usepackage[utf8]{inputenc} %% soporte para UTF-8
+\usepackage[T1]{fontenc} %% mejora la codificación de salida
+\renewcommand{\theenumi}{\roman{enumi}} %% números romanos para las enumeraciones (comentar si no es necesario)
+\usepackage{graphicx} %% imágenes y gráficos
+\graphicspath{ {FIGURES/} }
+\usepackage{siunitx}
+\sisetup{output-decimal-marker = {,}}
+\usepackage{microtype}
+\hyphenpenalty=1000 %% evitar separar las palabras con guión
+\interlinepenalty=1000000 %% evitar saltos de línea entre párrafos
+\usepackage[hidelinks]{hyperref} %% pone los hipervínculos en figuras y tablas de contenidos
+
+\usepackage{bm} % usar la negrita en los símbolos matemáticos
+\usepackage{color,soul}
+\setlength{\parindent}{20pt} % sangrado
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage[]{titlesec} %cambiar espacios en secciones
+\titlespacing*{\section}{0pt}{1.2ex}{1.2ex}
+\titlespacing*{\subsection}{0pt}{1ex}{1ex}
+\titlespacing*{\subsubsection}{0pt}{0.5ex}{0.5ex}
+\usepackage{booktabs}   % Líneas bonitas
+\usepackage[table]{xcolor}  % Colores para la tabla
+\usepackage{tabularx}   % Ajuste automático al ancho
+\usepackage{float}
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\usepackage{colortbl}
+\usepackage{lipsum}
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\newtcolorbox{mybox}[2][]{breakable,sharp corners, skin=enhancedmiddle jigsaw,parbox=false,
+	boxrule=0mm,leftrule=2mm,boxsep=0mm,arc=0mm,outer arc=0mm,attach title to upper,
+	after title={.\ }, coltitle=black,colback=gray!10,colframe=black, title={#2},
+	fonttitle=\bfseries,#1}
+
+\titleformat*{\section}{\Huge\bfseries\scshape}
+\titleformat*{\subsection}{\Large\bfseries\scshape}
+\titleformat*{\subsubsection}{\large\bfseries}
+\titleformat*{\paragraph}{\large\bfseries}
+\titleformat*{\subparagraph}{\large\bfseries}
+%\setcounter{tocdepth}{2}
+\usepackage{array}
+
+
+% comentar si no se quieren puntos en la tabla de contenidos
+\usepackage[makeroom]{cancel}
+\usepackage{tocloft} %% forzar los puntos
+\renewcommand{\cftdot}{·} %% definir el carácter de relleno (puede ser otro)
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} %% aplicarlo a las secciones
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftdotsep}} %% aplicarlo a las sub-secciones
+\usepackage{mathtools}
+\usepackage{multicol}
+% título, autor, fecha
+\usepackage{cleveref}
+
+\title{\textsc{\huge{\textbf{Física 2\textsuperscript{o} Bachillerato}}}}
+\author{Manuel Sánchez Abián}
+\date{2025-2026}
+
+% documento
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\setcounter{page}{0}
+\thispagestyle{empty}
+\setcounter{page}{0}
+\tableofcontents
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+
+
+% -------------- GRAVITACIÓN --------------
+
+
+\section{Campo Gravitatorio}
+
+\subsection{Leyes de Kepler}
+
+Las leyes de Kepler son 3 leyes acerca de las \textbf{órbitas} de los \textbf{planetas} alrededor del Sol, que se deducen a partir de la ley de gravitación universal.
+
+\subsubsection{Primera Ley de Kepler}
+
+Los planetas describen \textbf{órbitas elípticas} alrededor del Sol. El sol está situado en uno de los \textbf{focos} de la elipse.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.2]{GRAV_1LEYKEPLER.jpg}
+	\caption{Primera Ley de Kepler}
+	\label{GRAV_1LEYKEPLER}
+\end{figure}
+
+\subsubsection{Segunda Ley de Kepler}
+
+Los planetas giran con una \textbf{velocidad areolar constante}, es decir, el vector posición (radiovector) barre áreas iguales en tiempos iguales:
+
+\[
+\frac{dA}{dt} = \textnormal{cte.}
+\]
+
+Esto quiere decir que la velocidad en el \textbf{perihelio} (punto más cercano al Sol) es \textbf{mayor} que la velocidad en el \textbf{afelio} (punto más lejano al Sol).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{GRAV_2LEYKEPLER.jpeg}
+	\caption{Segunda Ley de Kepler}
+	\label{GRAV_2KEPLER}
+\end{figure}
+
+\subsubsection{Tercera Ley de Kepler}
+
+El \textbf{cuadrado} de los \textbf{periodos} (T) alrededor del Sol es \textbf{proporcional} al \textbf{cubo} de los \textbf{radios} medios de sus órbitas (r). Es decir:
+
+\begin{equation}\label{GRAV_3LEYKEPLER}
+	T^2 = k \cdot r^3
+\end{equation}
+
+Siendo k una \textbf{constante} igual para \textbf{todos los planetas}.
+
+\subsection{Demostración de la Tercera Ley de Kepler}
+
+
+\begin{equation}\label{GRAV_3KEPLER}
+	\begin{rcases}
+		\begin{aligned}
+			G\frac{Mm}{r^2} = m\frac{v^2}{r} \Longrightarrow v^2= \frac{GM}{r}  \\
+			T=\frac{2\pi r}{v}\Longrightarrow v^2=\frac{4\pi^2r^2}{T^2}
+		\end{aligned}
+	\end{rcases}
+	\frac{GM}{r} = \frac{4\pi^2r^2}{T^2} \Longrightarrow T^2 = \frac{4\pi^2}{GM}r^3
+\end{equation}
+
+
+
+\subsection{El Momento Angular de los Planetas}
+
+Cuando una partícula describe un movimiento curvilíneo, su estado de \textbf{movimiento} se caracteriza por su \textbf{momento angular} o momento cinético ($\vec{L}$):
+
+
+\begin{equation}\label{GRAV_MOMENTOANGULAR}
+	\vec{L} = \vec{r} \times \vec{p} = \vec{r} \times m\vec{v}
+\end{equation}
+
+\[
+{L} = r\cdot m\cdot v \cdot \sin{\alpha}
+\]
+
+\subsubsection{Teorema de Conservación del Momento Angular}
+
+Fórmulas utilizadas: $\vec{M} = \vec{r}\times \vec{F}$, $\vec{L} = \vec{r} \times m\vec{v}$, $\vec{v} = \frac{d\vec{r}}{dt}$, $\vec{a} = \frac{d\vec{v}}{dt}$
+
+\begin{equation}\label{GRAV_TEOREMACONSERVACIONL}
+	\frac{d\vec{L}}{dt} = \frac{d}{dt} \left( \vec{r}\times m\vec{v}\right) = m \left(\frac{d\vec{r}}{dt} \times \vec{v} + \vec{r} \times \frac{d\vec{v}}{dt}\right) = \vec{r} \times \vec{F} = \vec{M}
+\end{equation}
+
+Si $\vec{M} = 0 \Longrightarrow \vec{L} = \textnormal{cte.}$
+
+
+\subsection{Ley de Gravitación Universal}
+
+Conocida como la ley gravitacional de Newton, se expresa el \textbf{valor} de la \textbf{fuerza de atracción} entre dos masas. La \textbf{dirección} del vector es la recta que une las dos partículas. Las \textbf{fuerzas} que interactúan entre dos masas tienen el mismo \textbf{módulo} y \textbf{dirección} pero distinto sentido.
+
+
+\begin{equation}\label{GRAV_LEYGRAVUNIVERSAL}
+	\vec{F} = -G \frac{Mm}{r^2} \vec{u_r}
+\end{equation}
+
+Donde la Constante de Gravitación Universal es $G = \qty{6.67e-11}{\newton\meter\squared\per\kilo\gram\squared}$
+
+\subsection{Campo Gravitatorio}
+
+El campo gravitatorio se define como la \textbf{perturbación} que la masa produce en el \textbf{espacio} que le \textbf{rodea} por el hecho de tener masa.
+
+\begin{enumerate}
+	\item \textsc{\textbf{Líneas de Campo Gravitatorio}}:
+	\begin{enumerate}
+		\item Son \textbf{radiales} y van \textbf{dirigidos a la masa}.
+		\item Son \textbf{tangentes} en cada punto al vector intensidad de campo y tienen su mismo sentido.
+		\item No tienen \textbf{origen definido} (ya que el alcance del campo gravitatorio es infinito), pero terminan en puntos materiales denominados sumideros de campo.
+		\item La \textbf{densidad} de líneas de campo es \textbf{proporcional} al módulo de la \textbf{intensidad} del campo.
+		\item Las líneas de campo \textbf{no se pueden cortar}, ya que eso significaría que en un punto del espacio, el campo tendría dos valores distintos.
+	\end{enumerate}
+	\item \textsc{\textbf{Intensidad de Campo Gravitatorio ($\vec{g}$)}}
+	
+	\begin{equation}\label{GRAV_CAMPOGRAVITATORIO}
+		\vec{g} = -G \frac{M}{r^2}\vec{u_r} \Longrightarrow g = G\frac{M}{r^2}
+	\end{equation}
+	
+	
+	\item \textsc{\textbf{Principio de Superposición}}
+	\begin{enumerate}
+		\item La intensidad del campo gravitatorio en un punto es la \textbf{suma vectorial} de los campos que crearía cada cuerpo aislado.
+		\item De igual forma, la fuerza gravitatoria que siente una masa debido a otras masas será la \textbf{suma} de las fuerzas que cada una ejerzan:
+		\begin{equation}\label{GRAV_SUPERPOS}
+			\vec{F_T} = \Sigma F_i
+		\end{equation}
+	\end{enumerate}
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=2]{GRAV_CAMPOGRAV}
+	\caption{Líneas de Campo Gravitatorio}
+	\label{GRAV_CAMPOGRAV}
+\end{figure}
+
+\subsection{Fuerzas Conservativas y Energías }
+
+Las \textbf{fuerzas} son \textbf{conservativas} cuando el trabajo que realiza dicha fuerza para trasladar una partícula de un punto A a otro B depende de los puntos inicial y final, pero \textbf{no} del camino \textbf{seguido}. En este caso, la \textbf{gravedad} es una fuerza \textbf{conservativa}.
+
+\subsubsection{Energía Potencial Gravitatoria}
+
+La energía potencial gravitatoria ($E_p$) es aquella que posee una masa $m$ por \textbf{encontrarse} bajo la \textbf{influencia} gravitatoria de otra masa $M$ u otras masas. También puede definirse como el \textbf{trabajo} que realizaría el campo gravitatorio para \textbf{trasladar} una masa m desde un punto hasta el \textbf{infinito}.
+
+\begin{equation}\label{GRAV_ENERGIAPOTENCIAL}
+	E_p = -G \frac{Mm}{r}
+\end{equation}
+
+\subsection{¿Por qué la \texorpdfstring{$E_p$}{Ep} también es \texorpdfstring{$m\cdot g\cdot h$}{mgh}?}
+
+Con esta expresión, se asume que $h\ll R_t$
+
+\begin{equation}
+	\begin{split}
+		\Delta E_p &= E_{pB} - E_{pA} = -G\frac{Mm}{R_t+h} + G\frac{Mm}{R_t} \\
+		&= GMm \left(\frac{1}{R_t}-\frac{1}{R_t+h}\right) = \frac{GMmh}{R_t(R_t+h\simeq R_t)}
+	\end{split}
+\end{equation}
+
+\begin{equation} 
+	\Delta E_p = \frac{GM}{R^2_t}mh = mgh
+\end{equation}
+
+
+\subsubsection{Potencial Gravitatorio}
+
+El potencial gravitatorio (V) en un punto se define como la \textbf{energía potencial gravitatoria} por \textbf{unidad} de masa en dicho punto:
+
+\begin{equation}\label{GRAV_POTENCIAL}
+	E_p = m\cdot V \Longrightarrow V = -G\frac{M}{r}
+\end{equation}
+
+\subsubsection{Trabajo}
+
+Si $W > 0$, el trabajo lo realiza el \textbf{campo gravitatorio}. Si $W < 0$ el trabajo lo realiza una \textbf{fuerza exterior al campo}. Si $W = 0$ \textbf{no} se realiza \textbf{trabajo}. El trabajo para llevar una partícula de masa m desde un punto A hasta uno B será:
+
+\begin{enumerate}
+		\item $W_{A\rightarrow B} = -\Delta E_p$
+		\item $W_{A\rightarrow B} = -m\Delta V$
+\end{enumerate}
+
+\subsection{Satélites}
+
+\subsubsection{Velocidad Orbital}
+
+Es la \textbf{velocidad necesaria} para que una masa $m$ (como un satélite, tanto natural como artificial) describa una \textbf{órbita circular} alrededor de \textbf{otra} $M$, para lo que la fuerza \textbf{centrípeta} debe ser \textbf{igual} que la fuerza \textbf{gravitatoria}.
+
+\begin{equation}\label{GRAV_VORB}
+	G\frac{M\cancel{m}}{r^{\cancel{2}}} = \cancel{m}\frac{v^2}{\cancel{r}} \Longrightarrow v_{\textnormal{orbital}} = \sqrt{\frac{GM}{r}}
+\end{equation}
+
+\subsubsection{Satélites Geoestacionarios}
+
+Se llaman \textbf{satélites geosíncronos} a aquellos satélites cuyo periodo de revolución coincide con el de la Tierra: $T = 24\textnormal{h} = 86400\textnormal{s}$. Si además estos satélites están todo el rato \textbf{sobre el mismo punto} de la superficie terrestre (para lo que es necesario que su plano orbital coincida con el ecuador) entonces se denominan \textbf{satélites geoestacionarios}.
+
+\subsubsection{Velocidad de Escape}
+
+La velocidad de escape es la velocidad mínima que debe adquirir un cuerpo para escapar de la \textbf{atracción gravitatoria del planeta} en cuyas \textbf{proximidades} se encuentre. Esto significa que $E_p = 0$, $E_c = 0$ y $E_m = 0$.
+
+\begin{equation}\label{GRAV_VESC}
+	v_\textnormal{escape} = \sqrt{\frac{2GM}{r}} = \sqrt{2}\cdot v_\textnormal{orbital}
+\end{equation}
+
+
+
+\subsubsection{Energía Mecánica de un Satélite en Órbita}
+
+La energía mecánica de un satélite en órbita, también denominada energía orbital, es la \textbf{suma} de la energía \textbf{potencial} y \textbf{cinética}:
+
+\begin{equation}\label{GRAV_ENERGIAMECANICASATELITE}
+	E_m = -G\frac{Mm}{2r}
+\end{equation}
+
+\subsubsection{Principio de Conservación de la Energía}
+
+Es la energía que debemos \textbf{comunicarle} a un satélite para que \textbf{pase} de una \textbf{órbita} a otra, donde las energías mecánicas son distintas.
+
+\begin{equation}\label{GRAV_CONSERVACIONENERGIA}
+	W_{\textnormal{com}} + E_{p_A} + E_{c_A} = E_{c_B} + E_{p_B}
+\end{equation}
+
+De esta fórmula se puede \textbf{deducir} la fórmula de la \textbf{\textsc{energía de satelización}} (energía necesaria para poner un satélite en órbita):
+
+\begin{equation}\label{GRAV_ENERGIASATELIZACION}
+	E_{\textnormal{satelización}} = GMm \left( \frac{1}{r_A} - \frac{1}{2\cdot r_B} \right)
+\end{equation}
+
+\begin{mybox}{Conceptos Clave: Gravitación}
+	\begin{itemize}
+		\item \textbf{Distancia $r$:} En todas las fórmulas, $r$ es la distancia al \textbf{centro} del planeta. Si te dan la altura $h$, recuerda: $r = R_T + h$.
+		\item \textbf{Signos:} La Energía Potencial ($E_p$) y el Potencial ($V$) son siempre \textbf{negativos} (el 0 está en el infinito).
+	\end{itemize}
+\end{mybox}
+
+
+
+\subsection{Resumen de Fórmulas}
+	
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{2}
+	\setlength{\tabcolsep}{6pt}
+	\setlength{\aboverulesep}{4pt}
+	\setlength{\belowrulesep}{4pt}
+	\renewcommand{\tabularxcolumn}[1]{m{#1}}
+	\rowcolors{2}{gray!10}{white}
+	\begin{tabularx}{\textwidth}{
+			>{\centering\arraybackslash}m{4.5cm}
+			>{\centering\arraybackslash}X
+			>{\centering\arraybackslash}m{3cm}}
+		\toprule
+		\rowcolor{gray!25}
+		\textbf{Magnitud / Concepto} & \textbf{Fórmula} & \textbf{Unidades (SI)} \\
+		\midrule
+		
+		\textsc{Ley de Gravitación Universal} & $\displaystyle \vec{F} = -G \frac{Mm}{r^2}\vec{u_r}$ & \unit{\newton} \\
+		
+		\textsc{Intensidad del Campo Gravitatorio} & $\displaystyle \vec{g} = -G\frac{M}{r^2}\vec{u_r}$ & \unit{\meter\per\second\squared} \\
+		
+		\textsc{Cte. Grav. Universal} & $\displaystyle G = \num{6.67e-11}$ & \unit{\newton\meter\squared\per\kilo\gram\squared} \\
+		
+		\textsc{Momento Angular} & $\displaystyle \vec{L} = \vec{r}\times m\vec{v}$ & \unit{\kilo\gram\meter\squared\per\second} \\
+		
+		\textsc{Energía Potencial Gravitatoria} & $\displaystyle E_p = -G\frac{Mm}{r} = mV$ & \unit{\joule} \\
+		
+		\textsc{Potencial Gravitatorio} & $\displaystyle V = -G\frac{M}{r}$ & \unit{\joule\per\kilo\gram} \\
+		
+		\textsc{Trabajo del Campo Gravitatorio} & $\displaystyle W_{A\rightarrow B} = -\Delta E_p = -m\Delta V$ & \unit{\joule} \\
+		
+		\textsc{Velocidad Orbital} & $\displaystyle v_{\textnormal{orbital}} = \sqrt{\frac{GM}{r}}$ & \unit{\meter\per\second} \\
+		
+		\textsc{Velocidad de Escape} & $\displaystyle v_{\textnormal{escape}} = \sqrt{\frac{2GM}{r}}$ & \unit{\meter\per\second} \\
+		
+		\textsc{Energía Mecánica en Órbita} & $\displaystyle E_m = -G\frac{Mm}{2r}$ & \unit{\joule} \\
+		
+		\textsc{Energía de Satelización} & $GMm\left(\frac{1}{r_A} - \frac{1}{2r_B}\right)$ & \unit{\joule} \\
+		
+		\textsc{Periodo Orbital} & $\displaystyle T = \frac{2\pi r}{v}$ & \unit{\second} \\
+		
+		\bottomrule
+	\end{tabularx}
+	\label{GRAV_TABLAFORMULARIO}
+	\caption{Formulario de Gravedad}
+\end{table}
+
+% -------------- ELECTRICIDAD --------------
+
+\section{Campo Eléctrico}
+
+\subsection{Cargas Puntuales}
+
+\subsubsection{Ley de Coulomb}
+
+La fuerza de \textbf{atracción o repulsión} entre 2 cargas puntuales es directamente proporcional al producto de las cargas e \textbf{inversamente proporcional} al cuadrado de la distancia que las separa.
+
+\begin{equation}\label{ELEC_COULOUMB}
+	\vec{F} = k\frac{Qq}{r^2}\vec{u_r} \Longrightarrow F=k\frac{Qq}{r^2}
+\end{equation}
+
+Donde $k = \SI{9e9}{\newton\meter\squared\per\coulomb\squared}$ en el vacío, que está relacionada con $\varepsilon$ (permitividad eléctrica):
+
+\[k = \frac{1}{4\pi\varepsilon}\]
+
+\subsubsection{Líneas de Campo Eléctrico}
+
+El campo eléctrico es la \textbf{perturbación} que genera un cuerpo por tener carga eléctrica.
+\begin{enumerate}
+	\item Si la carga es \textbf{positiva}, el campo eléctrico es de \textbf{repulsión}.
+	\item Si la carga es \textbf{negativa}, el campo eléctrico es de \textbf{atracción}.
+\end{enumerate}
+
+El campo eléctrico, igual que el campo gravitatorio, es un \textbf{campo conservativo}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{ELEC_LINEAS}
+	\caption{Líneas de Campo Magnético}
+	\label{ELEC_LINEAS}
+\end{figure}
+
+\subsubsection{Intensidad del Campo Eléctrico}
+
+La \textbf{intensidad} de campo eléctrico ($\vec{E}$) (también llamada simplemente campo eléctrico) en un punto se define como la \textbf{fuerza} que se ejerce por \textbf{unidad} de \textbf{carga} positiva situada en dicho punto:
+
+\begin{equation} \label{ELEC_FCAMPOELECTRICO}
+	\vec{F} = q\cdot\vec{E} 
+\end{equation}
+
+\begin{equation} \label{ELEC_CAMPOELECTRICO}
+	\vec{E} = k\frac{Q}{r^2}\cdot\vec{u_r} \Longrightarrow E = k \frac{Q}{r^2}
+\end{equation}
+
+
+\subsubsection{Principio de Superposición}
+
+
+\begin{equation}\label{ELEC_SUPERPOS}
+	\vec{F_T} = \Sigma F_i
+\end{equation}
+
+\begin{equation}\label{ELEC_DISTANCIA}
+	\Delta V = -\vec{E} \cdot \Delta\vec{r}
+\end{equation}
+
+\subsection{Energías y Fuerzas Conservativas}
+
+La energía potencial eléctrica ($E_p$) es aquella que \textbf{posee} una carga por \textbf{encontrarse} bajo la influencia \textbf{eléctrica} de otra carga u otras cargas:
+
+\begin{equation}\label{ELEC_EPOT}
+	E_p = k\frac{Qq}{r}
+\end{equation}
+
+\subsubsection{Potencial Gravitatorio (\texorpdfstring{$V$}{V})}
+
+Es el trabajo \textbf{realizado} por el campo eléctrico para \textbf{trasladar} una \textbf{unidad} de carga desde un punto hasta el \textbf{infinito}.
+
+\begin{equation}\label{ELEC_POENCIAL}
+	V = \frac{E_p}{q} \Longrightarrow V = k\frac{Q}{r}
+\end{equation}
+
+\subsubsection{Trabajo (\texorpdfstring{$W$}{W})}
+
+La fuerza \textbf{eléctrica} (al igual que la fuerza gravitatoria) es una \textbf{fuerza central}, ya que está dirigida hacia un punto. El campo eléctrico (igual que el campo gravitatorio) es un \textbf{campo conservativo}. El trabajo realizado por el campo \textbf{depende} solo de su estado \textbf{inicial} y \textbf{final}, no depende de la \textbf{trayectoria}.
+
+\begin{equation}\label{ELEC_TRABAJO}
+	W_{A\rightarrow B} = E_{pA} - E_{pB} \Longrightarrow W_{A\rightarrow B} = -q(V_B - V_A)
+\end{equation}
+
+\newpage
+
+\subsection{Campos Eléctricos Uniformes}
+
+\subsubsection{Líneas de Campo}
+
+\begin{wrapfigure}{R}{0.5\textwidth}
+	\centering
+	\includegraphics[scale=0.15]{ELEC_LINEASCAMPOSUNIFORMES}
+	\caption{Líneas de Campo Eléctrico en un Campo Uniforme}
+	\label{ELEC_LINEASCAMPOUNIFORME}
+\end{wrapfigure}
+
+Las líneas de campo de un campo eléctrico \textbf{uniforme} son \textbf{líneas} de campo \textbf{paralelas}.
+
+\subsubsection{Movimiento de Carga en Campo Uniforme}
+
+Cuando trabajamos con un campo eléctrico uniforme, al ser \textbf{constante}, aplicaremos también la \textbf{segunda ley de Newton}, $\Sigma F = ma$, siendo esta \textbf{aceleración} también \textbf{uniforme}.
+
+Por lo tanto, podremos utilizar en este caso las \textbf{fórmulas del MRUA}:
+
+\begin{equation}\label{ELEC_MOVUNIFORME}
+	\begin{rcases}
+		\begin{aligned}
+			x = x_0 + v_0 t + \frac{1}{2}at^2  \\
+			v = v_0 + at \\
+			v^2 = v_o^2 + 2a\Delta x
+		\end{aligned}
+	\end{rcases}
+\end{equation}
+
+Podemos resolverlo también mediante el \textbf{Principio de Conservación de la Energía Mecánica}, al ser la fuerza eléctrica \textbf{conservativa}:
+
+\begin{equation}\label{ELEC_CONSERVACIONENERGIA}
+	\Delta E_m = 0 \Longrightarrow \Delta E_c = -\Delta E_p
+\end{equation}
+
+\subsubsection{Campo: Láminas Infinitas}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.05]{ELEC_CAMPOSLAMINASINFINITAS}
+	\caption{Campo Eléctrico Creado por Láminas Infinitas}
+	\label{ELEC_CAMPOLAMINASINFINITAS}
+\end{figure}
+
+\begin{equation}\label{ELEC_LAMINASINFINITAS}
+	E = \frac{\sigma}{\varepsilon}
+\end{equation}
+
+Siendo $\sigma$ las cargas por superficie $\frac{\textnormal{cargas ($C$)}}{\textnormal{superficie ($m^2$)}}$ y $\varepsilon$ depende del material.
+
+\subsubsection{Campo: Hilo Infinito}
+
+Las líneas de campo salen radialmente del hilo (suponiendo $\lambda$ positivo).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{ELEC_CAMPOSHILOINFINITO}
+	\caption{Campo Eléctrico Creado por Un Hilo Infinito}
+	\label{ELEC_CAMPOHILOINFINITO}
+\end{figure}
+
+\begin{equation}\label{ELEC_HILOINFINITO}
+	E = 2k\frac{\lambda}{r} = \frac{\lambda}{2\varepsilon\pi r}
+\end{equation}
+
+Siendo $\lambda$ las cargas por longitud $\frac{\textnormal{cargas ($C$)}}{\textnormal{longitud ($m$)}}$ y $\varepsilon$ depende del material.
+
+\begin{mybox}{El Electronvoltio}
+	Un Electronvoltio se define como la energía que tiene un electrón sometido a una diferencia de potencial de \SI{1}{\volt}.
+	
+	\[
+		\qty{1}{\electronvolt} = \qty{1.602e-19}{\joule}
+	\]
+\end{mybox}
+
+	\begin{mybox}{Consejos Clave: Campo Eléctrico}
+		\begin{itemize}
+			\item \textbf{Vectores vs Escalares:}
+			\begin{itemize}
+				\item Fuerza ($\vec{F}$) y Campo ($\vec{E}$) son \textbf{vectores}
+				\item Potencial ($V$) y Energía ($E_p$) son \textbf{escalares}
+			\end{itemize}
+			\item \textbf{Signo de la carga:} En las fórmulas escalares ($V, E_p$), \textbf{incluye} el signo de la carga. En las vectoriales, usa el signo para determinar el sentido del vector.
+		\end{itemize}
+	\end{mybox}
+
+\newpage
+
+\subsection{Resumen de Fórmulas}
+
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{1.5}
+	\setlength{\tabcolsep}{6pt}
+	\setlength{\aboverulesep}{0pt}
+	\setlength{\belowrulesep}{0pt}
+	\renewcommand{\tabularxcolumn}[1]{m{#1}}
+	\rowcolors{2}{gray!10}{white}
+	\begin{tabularx}{\textwidth}{
+			>{\centering\arraybackslash}m{4.5cm}
+			>{\centering\arraybackslash}X
+			>{\centering\arraybackslash}m{3cm}}
+		\toprule
+		\rowcolor{gray!25}
+		\textbf{Magnitud / Concepto} & \textbf{Fórmula} & \textbf{Unidades (SI)} \\
+		\midrule
+		
+		\textsc{Ley de Coulomb} & $\displaystyle \vec{F} = k\frac{Qq}{r^2}\vec{u_r}$ & \unit{\newton} \\
+		
+		\textsc{Constante de Coulomb} & $\displaystyle k = \SI{9e9}{} = \frac{1}{4\pi\varepsilon}$ & \unit{\newton\meter\squared\per\coulomb\squared} \\
+		
+		\textsc{Intensidad del Campo Eléctrico (Definición)} & $\displaystyle \vec{F} = q\vec{E}$ & \unit{\newton} \\
+		
+		\textsc{Campo Eléctrico Creado por una Carga Puntual} & $\displaystyle \vec{E} = k\frac{Q}{r^2}\vec{u_r}$ & \unit{\newton\per\coulomb} \\
+		
+		\textsc{Principio de Superposición} & $\displaystyle \vec{F}_T = \sum_i \vec{F}_i$ & \unit{\newton} \\
+		
+		\textsc{Energía Potencial Eléctrica} & $\displaystyle E_p = k\frac{Qq}{r}$ & \unit{\joule} \\
+		
+		\textsc{Potencial Eléctrico} & $\displaystyle V = \frac{E_p}{q} = k\frac{Q}{r}$ & \unit{\volt} = \unit{\joule\per\coulomb} \\
+		
+		\textsc{Trabajo del Campo Eléctrico} & $\displaystyle W_{A\rightarrow B} = E_{pA} - E_{pB} = -q(V_B - V_A)$ & \unit{\joule} \\
+		
+		\textsc{Campo Eléctrico Uniforme} & $\displaystyle E = \frac{F}{q}$ & \unit{\newton\per\coulomb} \\
+		
+		\textsc{Campo Creado por Láminas Infinitas} & $\displaystyle E = \frac{\sigma}{\varepsilon}$ & \unit{\newton\per\coulomb} \\
+		
+		\textsc{Campo Creado por un Hilo Infinito} & $\displaystyle E = 2k\frac{\lambda}{r} = \frac{\lambda}{2\pi\varepsilon r}$ & \unit{\newton\per\coulomb} \\
+		
+		\textsc{Relación entre $V$ y $E$} & $\Delta V = -\vec{E} \cdot \Delta\vec{r}$ & --- \\
+		
+		\textsc{Electron-voltio} & $\displaystyle \qty{1}{\electronvolt} = \num{1.602e-19}$ & \unit{\joule} \\
+		
+		\bottomrule
+	\end{tabularx}
+	\caption{Formulario del Campo Eléctrico}
+	\label{ELEC_TABLAFORMULARIO}
+\end{table}
+
+% -------------- MAGNETISMO --------------
+
+\section{Campo Magnético}
+
+El campo \textbf{magnético} es la \textbf{perturbación} que genera un \textbf{imán} o \textbf{cargas} en \textbf{movimiento} (corrientes eléctricas). El campo \textbf{magnético}, a diferencia de los campos gravitatorios y eléctricos, es un campo \textbf{no conservativo}, ya que el trabajo \textbf{sí} depende de la \textbf{trayectoria}.
+
+La \textbf{intensidad} de campo magnético $B$ es una magnitud \textbf{vectorial}, cuya unidad en el \textbf{Sistema Internacional} es el \textbf{Tesla} (\unit{\tesla}). El \textbf{tesla} es una unidad muy \textbf{grande}. Por ejemplo, el campo magnético terrestre es del orden de \SI{e-5}{\tesla}. Por eso a veces se usa una \textbf{unidad menor}, denominada \textbf{Gauss} (G): \SI{1}{G} = \SI{e-4}{\tesla}.
+
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.3]{MAGN_LINEASHILO}
+		\caption{\textbf{Hilo}}
+		\label{MAGN_LINEASHILO}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.2]{MAGN_LINEASIMAN}
+		\caption{\textbf{Imán}}
+		\label{MAGN_LINEASIMAN}
+	\end{subfigure}
+	\caption{Líneas de Campo Creados por un Hilo y por un Imán}
+	\label{MAGN_LINEASDECAMPO}
+\end{figure}
+
+\subsection{Ley de Lorentz}
+
+\begin{equation}\label{MAGN_LORENTZ}
+	\vec{F_m} = q\cdot \vec{v}\times \vec{B} \Longrightarrow F_m = \left| q \right|\cdot v\cdot B\sin{\alpha}
+\end{equation}
+
+\begin{wrapfigure}{R}{0.55\textwidth}
+	\centering
+	\includegraphics[scale=0.6]{MAGN_FUERZAS}
+	\caption{Vectores del Campo Magnético}
+	\label{MAGN_FUERZAS}
+\end{wrapfigure}
+
+Siendo $\alpha$ el \textbf{ángulo} que forman $v$ y $B$. La unidad de $B$ son los Teslas (\unit{\tesla}), que son: \unit{\newton\per\coulomb\per\meter\second}.
+
+\begin{enumerate}
+	\item Si $\vec{v}$ y $\vec{B}$ son \textbf{\textsc{paralelos}}: $\alpha = 0^\circ \Longrightarrow F_m = 0$, por lo tanto, la carga describirá un \textbf{MRU}.
+	
+	\item Si $\vec{v}$ y $\vec{B}$ son \textbf{\textsc{perpendiculares}}, la \textbf{fuerza} será \textbf{máxima} y la carga describirá un \textbf{MCU}.
+	
+	\item En el \textbf{resto} de casos, la carga describirá un \textbf{movimiento helicoidal} (véase \cref{MAGN_MOVIMIENTO}).
+\end{enumerate}
+
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.03]{MAGN_MANODERECHA}
+		\caption{Regla de la Mano Derecha}
+		\label{MAGN_MANODERECHA}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=1]{MAGN_SACACORCHOS.png}
+		\caption{Regla del Sacacorchos}
+		\label{MAGN_SACACORCHOS}
+	\end{subfigure}
+	\caption{Reglas de la Mano Derecha y del Sacacorchos}
+	\label{MAGN_MANODERECHASACACORCHOS}
+\end{figure}
+
+La regla de la \textbf{mano derecha} (o del \textbf{sacacorchos}) determina \textbf{sentidos vectoriales}. Para el sacacorchos, giramos de $\vec{v}$ a $\vec{B}$. Para la mano derecha, véase la figura \ref{MAGN_MANODERECHA}. 
+
+\subsection{Características del Movimiento}
+
+La partícula que penetra con \textbf{velocidad perpendicular} al campo magnético. El \textbf{radio} de la circunferencia $r$ que describe una partícula cargada \textbf{depende} de su \textbf{velocidad}. El \textbf{periodo} ($T$) del movimiento circular lo podemos \textbf{calcular} también. Para las partículas que penetran con un \textbf{ángulo} $\alpha$ \textbf{cualquiera} con el campo magnético se pueden \textbf{descomponer} en \textbf{ejes} \textbf{perpendiculares} y \textbf{paralelos} al campo magnético. 
+
+\begin{equation}\label{MAGN_RADIOMOVIMIENTO}
+	r = \frac{m\cdot v}{q\cdot B}
+\end{equation}
+
+\begin{equation}\label{MAGN_PERIODOMOVIMIENTO}
+	T = \frac{2\pi r}{v} = \frac{2\pi m}{qB}
+\end{equation}
+
+\begin{equation}\label{MAGN_DESCOMPOSICIÓN}
+	\vec{v} = \vec{v}_{\perp} + \vec{v}_{\parallel} = v_{\perp}\cdot \vec{u_{\perp}} + v_{\parallel}\cdot \vec{u_{\parallel}}
+\end{equation}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{MAGN_MOVIMIENTO}
+	\caption{Movimiento Descrito por una Carga con una Velocidad bajo un Ángulo}
+	\label{MAGN_MOVIMIENTO}
+\end{figure}
+
+\subsection{El Selector de Velocidades}
+
+El selector de velocidades utiliza campos \textbf{eléctrico} y \textbf{magnético} cruzados. Si las \textbf{partículas cargadas} entran con cierta \textbf{velocidad}, las fuerzas se \textbf{cancelan}. Esto permite que sigan una \textbf{trayectoria rectilínea} y \textbf{atraviesen} el dispositivo \textbf{sin desviarse}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.13]{MAGN_SELECTORDEVELOCIDADES}
+	\caption{Selector de Velocidades}
+	\label{MAGN_SELECTORDEVELOCIDADES}
+\end{figure}
+
+Para seleccionar las partículas que tienen una \textbf{cierta velocidad}, la fuerza eléctrica y magnética han de ser \textbf{iguales}:
+
+\begin{equation}\label{MAGN_SELECTORFORMULAS}
+	\vec{F_E} = \vec{F_B} \Longrightarrow E = vB \Longrightarrow v = \frac{E}{B}
+\end{equation}
+
+\subsection{Espectrómetro de Masas}
+
+Es un \textbf{dispositivo} que empleado para \textbf{separar partículas} cargadas que poseen \textbf{distinta relación} ($\frac{\textnormal{carga}}{\textnormal{masa}}$). El espectrómetro de masas consta básicamente de un \textbf{selector de velocidades} (que permite seleccionar las partículas con una determinada velocidad) seguido de una \textbf{zona} en la que se establece un \textbf{campo magnético}. En esta zona, la partícula \textbf{cargada} describe una trayectoria \textbf{circular}, y un a placa \textbf{fotográfica} recoge el \textbf{impacto} de las partículas después de \textbf{describir una semicircunferencia}. De esta forma podemos medir el \textbf{radio} de curvatura y calcular la relación $\frac{\textnormal{carga}}{\textnormal{masa}}$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{MAGN_ESPECTROMETRO}
+	\caption{Espectrómetro de Masas}
+	\label{MAGN_ESPECTROMETRO}
+\end{figure}
+
+\subsection{Ciclotrón}
+
+Un ciclotrón es un \textbf{acelerador de partículas} cargadas que después suelen ser utilizadas para producir \textbf{reacciones nucleares} o para \textbf{obtener información} sobre otros núcleos.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{MAGN_CICLOTRON}
+	\caption{Ciclotrón}
+	\label{MAGN_CICLOTRON}
+\end{figure}
+
+\begin{enumerate}
+	\item Un ciclotrón tiene dos \textbf{partes} llamadas "\textit{Des}" (por su forma). Son recipientes \textbf{semicirculares} al \textbf{vacío}, colocados \textbf{perpendicularmente} a un \textbf{campo} $B$. Las partículas describen \textbf{trayectorias} circulares de radio \textbf{creciente}. Las dos ``$Ds$'', $D_1$ y $D_2$, están separadas cierta \textbf{distancia}.
+
+	\item En \textbf{ese espacio} se \textbf{acelera} la partícula mediante una \textbf{diferencia de potencial}, \textbf{aumentando} su radio, hasta que alcanza un \textbf{radio máximo} denominado \textbf{radio de extracción}.
+
+	\item El \textbf{periodo} es \textbf{independiente} de la velocidad de la partícula y de su \textbf{radio}, por lo que será \textbf{constante} en el \textbf{ciclotrón}. Tras una serie de \textbf{vueltas}, la partícula \textbf{alcanzará} una energía \textbf{cinética} máxima con la que saldrá del \textbf{ciclotrón}.
+\end{enumerate}
+
+\begin{equation}\label{MAGN_CICLOTRONPERIODO}
+	\begin{rcases}
+		\begin{aligned}
+			\left| q \right|Bv = m\frac{v^2}{r} \Longrightarrow \frac{r}{v} = \frac{m}{\left| q \right|B}
+			\\
+			T=\frac{2\pi r}{v}
+		\end{aligned}
+	\end{rcases}
+T = \frac{2\pi m}{\left| q \right|B}
+\end{equation}
+
+La frecuencia en la que hay que cambiar la \textbf{polaridad} de la corriente en el ciclotrón, es el periodo de la partícula dividido entre 2. A esta frecuencia se llama \textbf{radiofrecuencia}: $\frac{T}{2} = \frac{\pi m}{\left| q \right|B}$:
+
+\begin{equation}
+	f_{\textnormal{radiofrecuencia}} = \frac{\left| q \right|B}{\pi m}
+\end{equation}
+
+
+\begin{mybox}{Consejos Clave: Campo Magnético}
+	\begin{itemize}
+		\item \textbf{Trabajo Nulo:} La fuerza magnética \textbf{nunca} realiza trabajo ($W=0$) porque es siempre perpendicular a la velocidad.
+		\item \textbf{Energía Cinética:} Como no hay trabajo, la fuerza magnética \textbf{no cambia} la rapidez (módulo de la velocidad), solo curva la trayectoria. $E_c = \textnormal{cte}$.
+	\end{itemize}
+\end{mybox}
+
+\newpage
+
+\subsection{Resumen de Fórmulas}
+
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{1.5}
+	\setlength{\tabcolsep}{6pt}
+	\setlength{\aboverulesep}{0pt}
+	\setlength{\belowrulesep}{0pt}
+	\renewcommand{\tabularxcolumn}[1]{m{#1}}
+	\rowcolors{2}{gray!10}{white}
+	\begin{tabularx}{\textwidth}{
+			>{\centering\arraybackslash}m{4.5cm}
+			>{\centering\arraybackslash}X
+			>{\centering\arraybackslash}m{3cm}}
+		\toprule
+		\rowcolor{gray!25}
+		\textbf{Magnitud / Concepto} & \textbf{Fórmula} & \textbf{Unidades (SI)} \\
+		\midrule
+		
+		\textsc{Ley de Lorentz (Vectorial)} & $\displaystyle \vec{F}_m = q(\vec{v}\times\vec{B})$ & \unit{\newton} \\
+		
+		\textsc{Ley de Lorentz (Módulo)} & $\displaystyle F_m = |q|vB\sin\alpha$ & \unit{\newton} \\
+		
+		\textsc{Radio de la Trayectoria} & $\displaystyle r = \frac{mv}{|q|B}$ & \unit{\meter} \\
+		
+		\textsc{Periodo (Partícula / Ciclotrón)} & $\displaystyle T = \frac{2\pi m}{|q|B}$ & \unit{\second} \\
+		
+		\textsc{Frecuencia (Ciclotrón)} & $\displaystyle f = \frac{|q|B}{2\pi m}$ & \unit{\hertz} \\
+		
+		\textsc{Velocidad Angular} & $\displaystyle \omega = \frac{|q|B}{m}$ & \unit{\radian\per\second} \\
+		
+		\textsc{Paso de la Hélice} & $\displaystyle p = v_{\parallel} \cdot T$ & \unit{\meter} \\
+		
+		\textsc{Selector de Velocidades} & $\displaystyle v = \frac{E}{B}$ & \unit{\meter\per\second} \\
+		
+		\textsc{Energía Cinética Máxima (Ciclotrón)} & $\displaystyle E_{c,\text{max}} = \frac{q^2 B^2 R^2}{2m}$ & \unit{\joule} \\
+		
+		\bottomrule
+	\end{tabularx}
+	\caption{Formulario de Campo Magnético}
+	\label{MAGN_TABLAFORMULARIO}
+\end{table}
+
+\[
+\qty{49494e3}{\minute} = \qty{49494e3}{\second}
+\]
+
+
+\end{document}
