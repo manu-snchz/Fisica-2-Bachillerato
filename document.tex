@@ -746,6 +746,26 @@ La frecuencia en la que hay que cambiar la \textbf{polaridad} de la corriente en
 \end{equation}
 
 
+\subsection{Cálculo Analítico de un Producto Vectorial}
+
+Para obtener el \textbf{vector fuerza} magnética $\vec{F}$ a partir de las \textbf{componentes} de la \textbf{velocidad} $\vec{v} = v_x\vec{i} + v_y\vec{j} + v_z\vec{k}$ y del \textbf{campo magnético} $\vec{B} = B_x\vec{i} + B_y\vec{j} + B_z\vec{k}$, utilizamos la regla del determinante:
+
+\begin{equation}\label{MAGN_PRODUCTOVECTORIAL}
+	\vec{F} = q (\vec{v} \times \vec{B}) = q 
+	\begin{vmatrix}
+		\vec{i} & \vec{j} & \vec{k} \\
+		v_x & v_y & v_z \\
+		B_x & B_y & B_z
+	\end{vmatrix}
+\end{equation}
+
+Desarrollando el determinante:
+
+\begin{equation}\label{MAGN_PRODUCTOVECTORIALDEVELOPADO}
+	\vec{F} = q \left[ (v_y B_z - v_z B_y)\vec{i} - (v_x B_z - v_z B_x)\vec{j} + (v_x B_y - v_y B_x)\vec{k} \right]
+\end{equation}
+
+
 \begin{mybox}{Consejos Clave: Campo Magnético}
 	\begin{itemize}
 		\item \textbf{Trabajo Nulo:} La fuerza magnética \textbf{nunca} realiza trabajo ($W=0$) porque es siempre perpendicular a la velocidad.
@@ -797,5 +817,7 @@ La frecuencia en la que hay que cambiar la \textbf{polaridad} de la corriente en
 	\caption{Formulario de Campo Magnético}
 	\label{MAGN_TABLAFORMULARIO}
 \end{table}
+
+
 
 \end{document}
