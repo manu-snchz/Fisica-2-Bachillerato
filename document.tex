@@ -76,7 +76,7 @@
 \tableofcontents
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 \thispagestyle{empty}
-\newpage
+\clearpage
 \setcounter{page}{1}
 
 
@@ -446,7 +446,7 @@ La fuerza \textbf{eléctrica} (al igual que la fuerza gravitatoria) es una \text
 	W_{A\rightarrow B} = E_{pA} - E_{pB} \Longrightarrow W_{A\rightarrow B} = -q(V_B - V_A)
 \end{equation}
 
-\newpage
+\clearpage
 
 \subsection{Campos Eléctricos Uniformes}
 
@@ -534,7 +534,7 @@ Siendo $\lambda$ las cargas por longitud $\frac{\textnormal{cargas ($C$)}}{\text
 		\end{itemize}
 	\end{mybox}
 
-\newpage
+\clearpage
 
 \subsection{Resumen de Fórmulas}
 
@@ -637,27 +637,6 @@ Siendo $\alpha$ el \textbf{ángulo} que forman $v$ y $B$. La unidad de $B$ son l
 	\item En el \textbf{resto} de casos, la carga describirá un \textbf{movimiento helicoidal} (véase \cref{MAGN_MOVIMIENTO}).
 \end{enumerate}
 
-
-\begin{figure}[H]
-	\centering
-	\begin{subfigure}{0.45\textwidth}
-		\centering
-		\includegraphics[scale=0.03]{MAGN_MANODERECHA}
-		\caption{Regla de la Mano Derecha}
-		\label{MAGN_MANODERECHA}
-	\end{subfigure}
-	\begin{subfigure}{0.45\textwidth}
-		\centering
-		\includegraphics[scale=1]{MAGN_SACACORCHOS.png}
-		\caption{Regla del Sacacorchos}
-		\label{MAGN_SACACORCHOS}
-	\end{subfigure}
-	\caption{Reglas de la Mano Derecha y del Sacacorchos}
-	\label{MAGN_MANODERECHASACACORCHOS}
-\end{figure}
-
-La regla de la \textbf{mano derecha} (o del \textbf{sacacorchos}) determina \textbf{sentidos vectoriales}. Para el sacacorchos, giramos de $\vec{v}$ a $\vec{B}$. Para la mano derecha, véase la figura \ref{MAGN_MANODERECHA}. 
-
 \subsection{Características del Movimiento}
 
 La partícula que penetra con \textbf{velocidad perpendicular} al campo magnético. El \textbf{radio} de la circunferencia $r$ que describe una partícula cargada \textbf{depende} de su \textbf{velocidad}. El \textbf{periodo} ($T$) del movimiento circular lo podemos \textbf{calcular} también. Para las partículas que penetran con un \textbf{ángulo} $\alpha$ \textbf{cualquiera} con el campo magnético se pueden \textbf{descomponer} en \textbf{ejes} \textbf{perpendiculares} y \textbf{paralelos} al campo magnético. 
@@ -681,13 +660,54 @@ La partícula que penetra con \textbf{velocidad perpendicular} al campo magnéti
 	\label{MAGN_MOVIMIENTO}
 \end{figure}
 
+\subsection{Cálculo de un Producto Vectorial}
+
+Para obtener el \textbf{vector fuerza} magnética $\vec{F}$ a partir de las \textbf{componentes} de la \textbf{velocidad} $\vec{v} = v_x\vec{i} + v_y\vec{j} + v_z\vec{k}$ y del \textbf{campo magnético} $\vec{B} = B_x\vec{i} + B_y\vec{j} + B_z\vec{k}$, utilizamos la regla del determinante:
+
+\begin{equation}\label{MAGN_PRODUCTOVECTORIAL}
+	\vec{F} = q (\vec{v} \times \vec{B}) = q 
+	\begin{vmatrix}
+		\vec{i} & \vec{j} & \vec{k} \\
+		v_x & v_y & v_z \\
+		B_x & B_y & B_z
+	\end{vmatrix}
+\end{equation}
+
+Desarrollando el determinante:
+
+\begin{equation}\label{MAGN_PRODUCTOVECTORIALDEVELOPADO}
+	\vec{F} = q \left[ (v_y B_z - v_z B_y)\vec{i} - (v_x B_z - v_z B_x)\vec{j} + (v_x B_y - v_y B_x)\vec{k} \right]
+\end{equation}
+
+También se puede usar la regla de la mano derecha o del sacacorchos:
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.03]{MAGN_MANODERECHA}
+		\caption{Regla de la Mano Derecha}
+		\label{MAGN_MANODERECHA}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=1]{MAGN_SACACORCHOS.png}
+		\caption{Regla del Sacacorchos}
+		\label{MAGN_SACACORCHOS}
+	\end{subfigure}
+	\caption{Reglas de la Mano Derecha y del Sacacorchos}
+	\label{MAGN_MANODERECHASACACORCHOS}
+\end{figure}
+
+La regla de la \textbf{mano derecha} (o del \textbf{sacacorchos}) determina \textbf{sentidos vectoriales}. Para el sacacorchos, giramos de $\vec{v}$ a $\vec{B}$. Para la mano derecha, véase la figura \ref{MAGN_MANODERECHA}. 
+
 \subsection{El Selector de Velocidades}
 
 El selector de velocidades utiliza campos \textbf{eléctrico} y \textbf{magnético} cruzados. Si las \textbf{partículas cargadas} entran con cierta \textbf{velocidad}, las fuerzas se \textbf{cancelan}. Esto permite que sigan una \textbf{trayectoria rectilínea} y \textbf{atraviesen} el dispositivo \textbf{sin desviarse}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.13]{MAGN_SELECTORDEVELOCIDADES}
+	\includegraphics[scale=0.23]{MAGN_SELECTORDEVELOCIDADES}
 	\caption{Selector de Velocidades}
 	\label{MAGN_SELECTORDEVELOCIDADES}
 \end{figure}
@@ -715,7 +735,7 @@ Un ciclotrón es un \textbf{acelerador de partículas} cargadas que después sue
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.3]{MAGN_CICLOTRON}
+	\includegraphics[scale=0.5]{MAGN_CICLOTRON}
 	\caption{Ciclotrón}
 	\label{MAGN_CICLOTRON}
 \end{figure}
@@ -745,26 +765,11 @@ La frecuencia en la que hay que cambiar la \textbf{polaridad} de la corriente en
 	f_{\textnormal{radiofrecuencia}} = \frac{\left| q \right|B}{\pi m}
 \end{equation}
 
+La \textbf{energía cinética máxima} que alcanza la partícula depende del radio máximo del ciclotrón ($R$) y del campo magnético ($B$):
 
-\subsection{Cálculo Analítico de un Producto Vectorial}
-
-Para obtener el \textbf{vector fuerza} magnética $\vec{F}$ a partir de las \textbf{componentes} de la \textbf{velocidad} $\vec{v} = v_x\vec{i} + v_y\vec{j} + v_z\vec{k}$ y del \textbf{campo magnético} $\vec{B} = B_x\vec{i} + B_y\vec{j} + B_z\vec{k}$, utilizamos la regla del determinante:
-
-\begin{equation}\label{MAGN_PRODUCTOVECTORIAL}
-	\vec{F} = q (\vec{v} \times \vec{B}) = q 
-	\begin{vmatrix}
-		\vec{i} & \vec{j} & \vec{k} \\
-		v_x & v_y & v_z \\
-		B_x & B_y & B_z
-	\end{vmatrix}
+\begin{equation}\label{MAGN_ECINETICAMAX}
+	E_{\textnormal{c max}} = \frac{q^2 B^2 R^2}{2m}
 \end{equation}
-
-Desarrollando el determinante:
-
-\begin{equation}\label{MAGN_PRODUCTOVECTORIALDEVELOPADO}
-	\vec{F} = q \left[ (v_y B_z - v_z B_y)\vec{i} - (v_x B_z - v_z B_x)\vec{j} + (v_x B_y - v_y B_x)\vec{k} \right]
-\end{equation}
-
 
 \begin{mybox}{Consejos Clave: Campo Magnético}
 	\begin{itemize}
@@ -773,7 +778,7 @@ Desarrollando el determinante:
 	\end{itemize}
 \end{mybox}
 
-\newpage
+\clearpage
 
 \subsection{Resumen de Fórmulas}
 
@@ -810,7 +815,7 @@ Desarrollando el determinante:
 		
 		\textsc{Selector de Velocidades} & $\displaystyle v = \frac{E}{B}$ & \unit{\meter\per\second} \\
 		
-		\textsc{Energía Cinética Máxima (Ciclotrón)} & $\displaystyle E_{c,\text{max}} = \frac{q^2 B^2 R^2}{2m}$ & \unit{\joule} \\
+		\textsc{Energía Cinética Máxima (Ciclotrón)} & $\displaystyle E_{\textnormal{c max}} = \frac{q^2 B^2 R^2}{2m}$ & \unit{\joule} \\
 		
 		\bottomrule
 	\end{tabularx}

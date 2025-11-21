@@ -40,8 +40,8 @@
 \contentsline {section}{\numberline {3}Campo Magnético}{13}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Ley de Lorentz}{13}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Características del Movimiento}{14}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}El Selector de Velocidades}{15}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Espectrómetro de Masas}{15}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Ciclotrón}{16}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Cálculo Analítico de un Producto Vectorial}{17}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.3}Cálculo de un Producto Vectorial}{14}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}El Selector de Velocidades}{15}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Espectrómetro de Masas}{16}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Ciclotrón}{16}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Resumen de Fórmulas}{18}{subsection.3.7}%

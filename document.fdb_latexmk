@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763761252.71738 "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" "document.pdf" "document" 1763761255.33912 0
-  "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" 1763761250.02898 34075 f2644c9557dee7183997c4833d1aeeb4 ""
+["pdflatex"] 1763766137.5724 "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" "document.pdf" "document" 1763766140.24049 0
+  "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" 1763766137.46164 34396 b64c96078c32521ef9b549d328d83041 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -283,10 +283,10 @@
   "FIGURES/MAGN_MOVIMIENTO.png" 1762878808.01512 21867 43df134034628a87e24c020c354aa0b4 ""
   "FIGURES/MAGN_SACACORCHOS.png" 1763739857.41185 9592 fcabe4e67c32bbc4247f9bc81f8292e6 ""
   "FIGURES/MAGN_SELECTORDEVELOCIDADES.png" 1762969295.87487 294306 b070f2832d9ec5801ced0dbbb980f90b ""
-  "document.aux" 1763761255.19142 18512 c1aa6978977f2e31b170dc2ab5885732 "pdflatex"
-  "document.out" 1763761255.19412 8554 c72c2d0abc265e14f1634895a8e569d1 "pdflatex"
-  "document.tex" 1763761250.02898 34075 f2644c9557dee7183997c4833d1aeeb4 ""
-  "document.toc" 1763761255.19444 4347 d8ea2cd306aa2cbe5e7e7b5e92ce6c46 "pdflatex"
+  "document.aux" 1763766140.09189 18616 7d33f2d1facc79fcba3c642ef158ee83 "pdflatex"
+  "document.out" 1763766140.09459 8498 def9eac1e0bbdc30745131fc42804054 "pdflatex"
+  "document.tex" 1763766137.46164 34396 b64c96078c32521ef9b549d328d83041 ""
+  "document.toc" 1763766140.09499 4336 96be2e14439a9779272a2528cfc464ae "pdflatex"
   (generated)
   "document.aux"
   "document.log"
