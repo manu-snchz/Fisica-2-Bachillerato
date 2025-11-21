@@ -1,35 +1,35 @@
-# Apuntes de Física - 2º Bachillerato
+# apuntes de física - 2º bachillerato
 
-¡Bienvenido! Este repositorio contiene mis apuntes de Física para 2º de Bachillerato, escritos en LaTeX.
+buenas!! aquí dejo mis apuntes de física para 2º de bachillerato. están escritos en latex y ya están compilados para que puedas descargarte el pdf directamente desde este permalink: https://github.com/manu-snchz/Fisica-2-Bachillerato/blob/808c98495ed385f0c72042225153c9e5c472d66f/document.pdf.
 
-## Contenido
+## contenido
 
-Los apuntes cubren los siguientes bloques temáticos:
+los bloques que hay de momento:
 
-- **Gravitación**: Leyes de Kepler, Ley de Gravitación Universal, Energía Potencial, Satélites.
-- **Campo Eléctrico**: Ley de Coulomb, Campo Eléctrico, Potencial, Teorema de Gauss.
-- **Campo Magnético**: Ley de Lorentz, Fuentes de Campo, Inducción Electromagnética.
-- *Añadiré más temas cuando los dé en el futuro, como Ondas, Óptica o Física Moderna*
+- **gravitación**: leyes de kepler, gravitación universal, energía potencial, satélites.
+- **campo eléctrico**: ley de coulomb, campo, potencial, gauss.
+- **campo magnético**: lorentz, fuentes, inducción.
+- *añadiré más temas cuando los dé en el futuro, como ondas, óptica o física moderna*
 
-## Características
+## características
 
-- **Fórmulas Clave**: Resúmenes de fórmulas al final de cada tema.
-- **Consejos**: Cajas con "Consejos Clave" para evitar errores comunes en exámenes.
-- **Gráficos**: Ilustraciones y diagramas para visualizar los conceptos.
-- **Formato Profesional**: Maquetado con LaTeX para una lectura clara y ordenada.
+- **fórmulas**: resúmenes al final de cada tema.
+- **consejos**: cajas con tips para no fallar en los exámenes.
+- **gráficos**: dibujitos para entenderlo todo mejor.
+- **formato**: al ser latex se lee genial.
 
-## Cómo compilar
+## cómo compilar
 
-Si quieres generar el PDF por tu cuenta, necesitarás una distribución de LaTeX (como TeX Live o MiKTeX).
+si quieres editar el pdf, necesitas latex.
 
-1. Clona este repositorio.
-2. Asegúrate de tener instalados los paquetes necesarios (ver `document.tex`).
-3. Compila el archivo principal:
+1. clona el repo.
+2. instala los paquetes que salen en `document.tex`.
+3. compila el archivo:
    ```bash
    pdflatex document.tex
    ```
-   *(Es recomendable compilar dos veces para generar correctamente el índice y las referencias)*.
+*(asegúrate de compilar un par de veces el archivo .tex para que salga todo bien, ya que el índice suele dar problemas si se compila una sola vez)*.
 
-## Fin
+***
 
-Estos apuntes son para uso personal y educativo. ¡Espero que te sirvan para aprobar!
+puedes modificar el archivo a tu gusto. ¡espero que te sirvan para aprobar!
