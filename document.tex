@@ -148,22 +148,18 @@ Cuando una partícula describe un movimiento curvilíneo, su estado de \textbf{m
 
 
 \begin{equation}\label{GRAV_MOMENTOANGULAR}
-	\vec{L} = \vec{r} \times \vec{p} = \vec{r} \times m\vec{v}
+	\vec{L} = \vec{r} \times \vec{p} = \vec{r} \times m\vec{v} \Longrightarrow {L} = r\cdot m\cdot v \cdot \sin{\alpha}
 \end{equation}
-
-\[
-{L} = r\cdot m\cdot v \cdot \sin{\alpha}
-\]
 
 \subsubsection{Teorema de Conservación del Momento Angular}
 
 Fórmulas utilizadas: $\vec{M} = \vec{r}\times \vec{F}$, $\vec{L} = \vec{r} \times m\vec{v}$, $\vec{v} = \frac{d\vec{r}}{dt}$, $\vec{a} = \frac{d\vec{v}}{dt}$
 
 \begin{equation}\label{GRAV_TEOREMACONSERVACIONL}
-	\frac{d\vec{L}}{dt} = \frac{d}{dt} \left( \vec{r}\times m\vec{v}\right) = m \left(\frac{d\vec{r}}{dt} \times \vec{v} + \vec{r} \times \frac{d\vec{v}}{dt}\right) = \vec{r} \times \vec{F} = \vec{M}
+	\frac{d\vec{L}}{dt} = \frac{d}{dt} \left( \vec{r}\times m\vec{v}\right) = m \left(\cancelto{\vec{v}\times \vec{v} = 0}{\frac{d\vec{r}}{dt} \times \vec{v}} + \vec{r} \times \frac{d\vec{v}}{dt}\right) = \vec{r} \times \vec{F} = \vec{M}
 \end{equation}
 
-Si $\vec{M} = 0 \Longrightarrow \vec{L} = \textnormal{cte.}$
+Como $\frac{d \vec{L}}{dt} = \vec{M}$, si $\vec{M} = 0 \Longrightarrow \vec{L} = \textnormal{cte.}$
 
 
 \subsection{Ley de Gravitación Universal}
@@ -822,7 +818,6 @@ La \textbf{energía cinética máxima} que alcanza la partícula depende del rad
 	\caption{Formulario de Campo Magnético}
 	\label{MAGN_TABLAFORMULARIO}
 \end{table}
-
 
 
 \end{document}
