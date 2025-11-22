@@ -1,6 +1,6 @@
 # apuntes de física - 2º bachillerato
 
-buenas!! aquí dejo mis apuntes de física para 2º de bachillerato. están escritos en latex y ya están compilados para que puedas descargarte el pdf directamente desde este permalink: https://github.com/manu-snchz/Fisica-2-Bachillerato/blob/808c98495ed385f0c72042225153c9e5c472d66f/document.pdf.
+buenas!! aquí dejo mis apuntes de física para 2º de bachillerato. están escritos en latex y ya están compilados para que puedas descargarte el PDF desde el código (es el documento document.pdf).
 
 ## contenido
 
