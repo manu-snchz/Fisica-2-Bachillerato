@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763799933.27327 "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" "document.pdf" "document" 1763799935.90241 0
-  "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" 1763799930.52341 34481 e6667ff94fddc26fe7f3f57f9aa6af81 ""
+["pdflatex"] 1763894101.74996 "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" "document.pdf" "document" 1763894104.3749 0
+  "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" 1763894101.64581 35004 d9630de6e3a67cb11e932205d8b822cb ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -283,10 +283,10 @@
   "FIGURES/MAGN_MOVIMIENTO.png" 1762878808.01512 21867 43df134034628a87e24c020c354aa0b4 ""
   "FIGURES/MAGN_SACACORCHOS.png" 1763739857.41185 9592 fcabe4e67c32bbc4247f9bc81f8292e6 ""
   "FIGURES/MAGN_SELECTORDEVELOCIDADES.png" 1762969295.87487 294306 b070f2832d9ec5801ced0dbbb980f90b ""
-  "document.aux" 1763799935.75204 18616 6ec7f9fefbd879522bccd520f3bb2adb "pdflatex"
-  "document.out" 1763799935.7549 8498 def9eac1e0bbdc30745131fc42804054 "pdflatex"
-  "document.tex" 1763799930.52341 34481 e6667ff94fddc26fe7f3f57f9aa6af81 ""
-  "document.toc" 1763799935.75525 4336 96be2e14439a9779272a2528cfc464ae "pdflatex"
+  "document.aux" 1763894104.22481 18616 7c34d00faecdd8e00aa878cad7906b7b "pdflatex"
+  "document.out" 1763894104.2276 8498 def9eac1e0bbdc30745131fc42804054 "pdflatex"
+  "document.tex" 1763894101.64581 35004 d9630de6e3a67cb11e932205d8b822cb ""
+  "document.toc" 1763894104.2279 4336 baf7e535b745c9fde2f9254ab0af7a60 "pdflatex"
   (generated)
   "document.aux"
   "document.log"

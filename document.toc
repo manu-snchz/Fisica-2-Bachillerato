@@ -44,4 +44,4 @@
 \contentsline {subsection}{\numberline {3.4}El Selector de Velocidades}{15}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Espectrómetro de Masas}{16}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}Ciclotrón}{16}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Resumen de Fórmulas}{18}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.7}Resumen de Fórmulas}{19}{subsection.3.7}%
