@@ -21,6 +21,7 @@
 \usepackage{wrapfig}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{pgfplots}
 
 \usepackage[]{titlesec} %cambiar espacios en secciones
 \titlespacing*{\section}{0pt}{1.2ex}{1.2ex}
@@ -80,7 +81,7 @@
 \setcounter{page}{1}
 
 
-% -------------- GRAVITACIÓN --------------
+% -------------- CAMPO GRAVITATORIO --------------
 
 
 \section{Campo Gravitatorio}
@@ -119,7 +120,7 @@ Esto quiere decir que la velocidad en el \textbf{perihelio} (punto más cercano 
 
 \subsubsection{Tercera Ley de Kepler}
 
-El \textbf{cuadrado} de los \textbf{periodos} (T) alrededor del Sol es \textbf{proporcional} al \textbf{cubo} de los \textbf{radios} medios de sus órbitas (r). Es decir:
+El \textbf{cuadrado} de los \textbf{periodos} ($T$) alrededor del Sol es \textbf{proporcional} al \textbf{cubo} de los \textbf{radios} medios de sus órbitas ($r$). Es decir:
 
 \begin{equation}\label{GRAV_3LEYKEPLER}
 	T^2 = k \cdot r^3
@@ -182,7 +183,7 @@ El campo gravitatorio se define como la \textbf{perturbación} que la masa produ
 	\begin{enumerate}
 		\item Son \textbf{radiales} y van \textbf{dirigidos a la masa}.
 		\item Son \textbf{tangentes} en cada punto al vector intensidad de campo y tienen su mismo sentido.
-		\item No tienen \textbf{origen definido} (ya que el alcance del campo gravitatorio es infinito), pero terminan en puntos materiales denominados sumideros de campo.
+		\item No tienen \textbf{origen definido} (ya que el alcance del campo gravitatorio es infinito), pero terminan en puntos materiales denominados \textbf{sumideros} de campo.
 		\item La \textbf{densidad} de líneas de campo es \textbf{proporcional} al módulo de la \textbf{intensidad} del campo.
 		\item Las líneas de campo \textbf{no se pueden cortar}, ya que eso significaría que en un punto del espacio, el campo tendría dos valores distintos.
 	\end{enumerate}
@@ -359,7 +360,7 @@ De esta fórmula se puede \textbf{deducir} la fórmula de la \textbf{\textsc{ene
 	\caption{Formulario de Gravedad}
 \end{table}
 
-% -------------- ELECTRICIDAD --------------
+% -------------- CAMPO ELÉCTRICO --------------
 
 \section{Campo Eléctrico}
 
@@ -426,7 +427,7 @@ La energía potencial eléctrica ($E_p$) es aquella que \textbf{posee} una carga
 	E_p = k\frac{Qq}{r}
 \end{equation}
 
-\subsubsection{Potencial Gravitatorio (\texorpdfstring{$V$}{V})}
+\subsubsection{Potencial Eléctrico (\texorpdfstring{$V$}{V})}
 
 Es el trabajo \textbf{realizado} por el campo eléctrico para \textbf{trasladar} una \textbf{unidad} de carga desde un punto hasta el \textbf{infinito}.
 
@@ -519,7 +520,7 @@ Siendo $\lambda$ las cargas por longitud $\frac{\textnormal{cargas ($C$)}}{\text
 	\]
 \end{mybox}
 
-	\begin{mybox}{Consejos Clave: Campo Eléctrico}
+	\begin{mybox}{Conceptos Clave: Campo Eléctrico}
 		\begin{itemize}
 			\item \textbf{Vectores vs Escalares:}
 			\begin{itemize}
@@ -583,7 +584,7 @@ Siendo $\lambda$ las cargas por longitud $\frac{\textnormal{cargas ($C$)}}{\text
 	\label{ELEC_TABLAFORMULARIO}
 \end{table}
 
-% -------------- MAGNETISMO --------------
+% -------------- CAMPO MAGNÉTICO --------------
 
 \section{Campo Magnético}
 
@@ -613,7 +614,7 @@ La \textbf{intensidad} de campo magnético $B$ es una magnitud \textbf{vectorial
 \subsection{Ley de Lorentz}
 
 \begin{equation}\label{MAGN_LORENTZ}
-	\vec{F_m} = q\cdot \vec{v}\times \vec{B} \Longrightarrow F_m = \left| q \right|\cdot v\cdot B\sin{\alpha}
+	\vec{F_m} = q\cdot \vec{v}\times \vec{B} \Longrightarrow F_m = \left| q \right|\cdot v\cdot B\sen{\alpha}
 \end{equation}
 
 \begin{wrapfigure}{R}{0.55\textwidth}
@@ -707,7 +708,7 @@ El selector de velocidades utiliza campos \textbf{eléctrico} y \textbf{magnéti
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.23]{MAGN_SELECTORDEVELOCIDADES}
+	\includegraphics[scale=0.2]{MAGN_SELECTORDEVELOCIDADES}
 	\caption{Selector de Velocidades}
 	\label{MAGN_SELECTORDEVELOCIDADES}
 \end{figure}
@@ -735,7 +736,7 @@ Un ciclotrón es un \textbf{acelerador de partículas} cargadas que después sue
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.5]{MAGN_CICLOTRON}
+	\includegraphics[scale=0.45]{MAGN_CICLOTRON}
 	\caption{Ciclotrón}
 	\label{MAGN_CICLOTRON}
 \end{figure}
@@ -759,19 +760,19 @@ Un ciclotrón es un \textbf{acelerador de partículas} cargadas que después sue
 T = \frac{2\pi m}{\left| q \right|B}
 \end{equation}
 
-La frecuencia en la que hay que cambiar la \textbf{polaridad} de la corriente en el ciclotrón, es el periodo de la partícula dividido entre 2. A esta frecuencia se llama \textbf{frecuencia de radiofrecuencia}: $\frac{T}{2} = \frac{\pi m}{\left| q \right|B}$:
+La frecuencia a la que hay que cambiar la \textbf{polaridad} se llama \textbf{frecuencia de radiofrecuencia}: $\frac{T}{2} = \frac{\pi m}{\left| q \right|B}$:
 
 \begin{equation}
-	f_{\textnormal{radiofrecuencia}} = \frac{\left| q \right|B}{\pi m}
+	f_{\textnormal{radiofrecuencia}} = \frac{\left| q \right|B}{2\pi m}
 \end{equation}
 
 La \textbf{energía cinética máxima} que alcanza la partícula depende del radio máximo del ciclotrón ($R$) y del campo magnético ($B$):
 
 \begin{equation}\label{MAGN_ECINETICAMAX}
-	E_{\textnormal{c max}} = \frac{q^2 B^2 R^2}{2m}
+	E_{\textnormal{c,max}} = \frac{q^2 B^2 R^2}{2m}
 \end{equation}
 
-\begin{mybox}{Consejos Clave: Campo Magnético}
+\begin{mybox}{Conceptos Clave: Campo Magnético}
 	\begin{itemize}
 		\item \textbf{Trabajo Nulo:} La fuerza magnética \textbf{nunca} realiza trabajo ($W=0$) porque es siempre perpendicular a la velocidad.
 		\item \textbf{Energía Cinética:} Como no hay trabajo, la fuerza magnética \textbf{no cambia} la rapidez (módulo de la velocidad), solo curva la trayectoria. $E_c = \textnormal{cte}$.
@@ -817,13 +818,12 @@ La \textbf{energía cinética máxima} que alcanza la partícula depende del rad
 		
 		\textsc{Frecuencia de Radiofrecuencia} & $\displaystyle f_{\textnormal{rf}} = \frac{|q|B}{\pi m}$ & \unit{\hertz} \\
 		
-		\textsc{Energía Cinética Máxima (Ciclotrón)} & $\displaystyle E_{\textnormal{c max}} = \frac{q^2 B^2 R^2}{2m}$ & \unit{\joule} \\
+		\textsc{Energía Cinética Máxima (Ciclotrón)} & $\displaystyle E_{\textnormal{c,max}} = \frac{q^2 B^2 R^2}{2m}$ & \unit{\joule} \\
 		
 		\bottomrule
 	\end{tabularx}
 	\caption{Formulario de Campo Magnético}
 	\label{MAGN_TABLAFORMULARIO}
 \end{table}
-
 
 \end{document}

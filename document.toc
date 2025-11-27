@@ -29,7 +29,7 @@
 \contentsline {subsubsection}{\numberline {2.1.3}Intensidad del Campo Eléctrico}{9}{subsubsection.2.1.3}%
 \contentsline {subsubsection}{\numberline {2.1.4}Principio de Superposición}{9}{subsubsection.2.1.4}%
 \contentsline {subsection}{\numberline {2.2}Energías y Fuerzas Conservativas}{9}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Potencial Gravitatorio ($V$)}{9}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}Potencial Eléctrico ($V$)}{9}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Trabajo ($W$)}{9}{subsubsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.3}Campos Eléctricos Uniformes}{10}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Líneas de Campo}{10}{subsubsection.2.3.1}%
@@ -44,4 +44,4 @@
 \contentsline {subsection}{\numberline {3.4}El Selector de Velocidades}{15}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Espectrómetro de Masas}{16}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}Ciclotrón}{16}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Resumen de Fórmulas}{19}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.7}Resumen de Fórmulas}{18}{subsection.3.7}%
