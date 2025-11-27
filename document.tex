@@ -67,6 +67,9 @@
 
 % documento
 
+\pgfplotsset{compat=1.18}
+
+
 \begin{document}
 
 \maketitle
@@ -613,16 +616,11 @@ La \textbf{intensidad} de campo magnético $B$ es una magnitud \textbf{vectorial
 
 \subsection{Ley de Lorentz}
 
+Cuando un cuerpo cargado penetra con una \textbf{velocidad} $\vec{v}$ en una región del espacio en la que existe un \textbf{campo magnético} $\vec{B}$, se ve sometido a una \textbf{fuerza magnética} $\vec{F_m}$:
+
 \begin{equation}\label{MAGN_LORENTZ}
 	\vec{F_m} = q\cdot \vec{v}\times \vec{B} \Longrightarrow F_m = \left| q \right|\cdot v\cdot B\sen{\alpha}
 \end{equation}
-
-\begin{wrapfigure}{R}{0.55\textwidth}
-	\centering
-	\includegraphics[scale=0.6]{MAGN_FUERZAS}
-	\caption{Vectores del Campo Magnético}
-	\label{MAGN_FUERZAS}
-\end{wrapfigure}
 
 Siendo $\alpha$ el \textbf{ángulo} que forman $v$ y $B$. La unidad de $B$ son los Teslas (\unit{\tesla}), que son: \unit{\newton\per\coulomb\per\meter\second}.
 
@@ -760,17 +758,35 @@ Un ciclotrón es un \textbf{acelerador de partículas} cargadas que después sue
 T = \frac{2\pi m}{\left| q \right|B}
 \end{equation}
 
-La frecuencia a la que hay que cambiar la \textbf{polaridad} se llama \textbf{frecuencia de radiofrecuencia}: $\frac{T}{2} = \frac{\pi m}{\left| q \right|B}$:
-
-\begin{equation}
-	f_{\textnormal{radiofrecuencia}} = \frac{\left| q \right|B}{2\pi m}
-\end{equation}
 
 La \textbf{energía cinética máxima} que alcanza la partícula depende del radio máximo del ciclotrón ($R$) y del campo magnético ($B$):
 
 \begin{equation}\label{MAGN_ECINETICAMAX}
 	E_{\textnormal{c,max}} = \frac{q^2 B^2 R^2}{2m}
 \end{equation}
+
+\clearpage
+
+\subsection{Efecto de un Campo Magnético sobre un Hilo de Corriente}
+
+Si un hilo que transporta una corriente eléctrica entra en contacto con un campo magnético, sufrirá una fuerza magnética que podemos deducir. La intensidad, por definición se define como: $I = \frac{dq}{dt}$, y sustituyendo en la ecuación de la Ley de Lorentz obtenemos:
+
+\begin{equation}
+	d\vec{F_B} = dq \cdot \vec{v} \times \vec{B} \Longrightarrow \vec{F_B} = I \cdot dt \cdot \vec{\ell} \times \vec{B}
+\end{equation}
+
+\begin{equation}
+	\vec{F} = I\vec{\ell} \times \vec{B} \Longrightarrow \vec{F} = I \cdot \ell \cdot B \cdot \sin\alpha
+\end{equation}
+
+En esta fórmula, la dirección y sentido de $\vec{\ell}$ coinciden con el de la corriente, y su módulo con la longitud del hilo. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{MAGN_FUERZAHILO}
+	\caption{Fuerza sobre un hilo de corriente}
+	\label{MAGN_FUERZAHILO}
+\end{figure}
 
 \begin{mybox}{Conceptos Clave: Campo Magnético}
 	\begin{itemize}
@@ -808,17 +824,15 @@ La \textbf{energía cinética máxima} que alcanza la partícula depende del rad
 		
 		\textsc{Periodo (Partícula / Ciclotrón)} & $\displaystyle T = \frac{2\pi m}{|q|B}$ & \unit{\second} \\
 		
-		\textsc{Frecuencia (Ciclotrón)} & $\displaystyle f = \frac{|q|B}{2\pi m}$ & \unit{\hertz} \\
-		
-		\textsc{Velocidad Angular} & $\displaystyle \omega = \frac{|q|B}{m}$ & \unit{\radian\per\second} \\
-		
+		\textsc{Frecuencia (Ciclotrón)} & $\displaystyle f = \frac{|q|B}{2\pi m}$ & \unit{\hertz} o \unit{\per\second} \\
+				
 		\textsc{Paso de la Hélice} & $\displaystyle p = v_{\parallel} \cdot T$ & \unit{\meter} \\
 		
 		\textsc{Selector de Velocidades} & $\displaystyle v = \frac{E}{B}$ & \unit{\meter\per\second} \\
-		
-		\textsc{Frecuencia de Radiofrecuencia} & $\displaystyle f_{\textnormal{rf}} = \frac{|q|B}{\pi m}$ & \unit{\hertz} \\
-		
+				
 		\textsc{Energía Cinética Máxima (Ciclotrón)} & $\displaystyle E_{\textnormal{c,max}} = \frac{q^2 B^2 R^2}{2m}$ & \unit{\joule} \\
+
+		\textsc{Fuerza sobre un hilo de corriente} & $\displaystyle \vec{F} = I\vec{\ell} \times \vec{B}$ & \unit{\newton} \\
 		
 		\bottomrule
 	\end{tabularx}
