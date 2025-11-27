@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1764260902.10968 "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" "document.pdf" "document" 1764260905.02689 0
-  "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" 1764260901.92083 35620 91c6f88bec76a45a573ba59e0a361ed4 ""
+["pdflatex"] 1764274724.86816 "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" "document.pdf" "document" 1764274727.80718 0
+  "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" 1764274724.67257 36210 c58e093acf278c94e9794cf56e7810fa ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -326,10 +326,10 @@
   "FIGURES/MAGN_MOVIMIENTO.png" 1762878808.01512 21867 43df134034628a87e24c020c354aa0b4 ""
   "FIGURES/MAGN_SACACORCHOS.png" 1763739857.41185 9592 fcabe4e67c32bbc4247f9bc81f8292e6 ""
   "FIGURES/MAGN_SELECTORDEVELOCIDADES.png" 1762969295.87487 294306 b070f2832d9ec5801ced0dbbb980f90b ""
-  "document.aux" 1764260904.85587 18790 042fdf2191e2e4f4425f752dc921e12d "pdflatex"
-  "document.out" 1764260904.85876 8849 d1c14f89003a69675c327b3eeaa3902a "pdflatex"
-  "document.tex" 1764260901.92083 35620 91c6f88bec76a45a573ba59e0a361ed4 ""
-  "document.toc" 1764260904.85912 4457 b36c86fb7985c2eabc6b6f7390578471 "pdflatex"
+  "document.aux" 1764274727.63498 19377 a8f898a7d9a1e6d353ef701fae583915 "pdflatex"
+  "document.out" 1764274727.63813 8849 d1c14f89003a69675c327b3eeaa3902a "pdflatex"
+  "document.tex" 1764274724.67257 36210 c58e093acf278c94e9794cf56e7810fa ""
+  "document.toc" 1764274727.63866 4457 7e8bf66c0abc163bc63053976c7175a8 "pdflatex"
   (generated)
   "document.aux"
   "document.log"
