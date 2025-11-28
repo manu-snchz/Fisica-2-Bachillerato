@@ -769,7 +769,7 @@ La \textbf{energía cinética máxima} que alcanza la partícula depende del rad
 
 \subsection{Efecto de un Campo Magnético sobre un Hilo de Corriente}
 
-Si un hilo que transporta una corriente eléctrica se encuentra en un campo magnético, experimenta una fuerza magnética que podemos deducir a partir de la Ley de Lorentz. Recordemos que la intensidad se define como $I = \frac{dq}{dt}$. Sustituyendo en la expresión diferencial de la fuerza:
+Si un \textbf{hilo} que transporta una \textbf{corriente eléctrica} se encuentra en un \textbf{campo magnético}, experimenta una \textbf{fuerza magnética} que podemos deducir a partir de la Ley de Lorentz. Recordemos que la \textbf{intensidad} se define como $I = \frac{dq}{dt}$. Sustituyendo en la expresión diferencial de la fuerza:
 
 \begin{equation}
 d\vec{F}_B = dq \cdot \vec{v} \times \vec{B}
@@ -777,7 +777,7 @@ d\vec{F}_B = dq \cdot \vec{v} \times \vec{B}
 d\vec{F}_B = I \cdot dt \cdot \vec{v} \times \vec{B}
 \end{equation}
 
-Como $\vec{v} \cdot dt = d\vec{\ell}$, siendo $d\vec{\ell}$ un elemento de longitud en la dirección de la corriente:
+Como $\vec{v} \cdot dt = d\vec{\ell}$, siendo $d\vec{\ell}$ un elemento de \textbf{longitud} en la dirección de la corriente:
 
 \begin{equation}
 d\vec{F}_B = I \cdot d\vec{\ell} \times \vec{B}
@@ -793,13 +793,32 @@ Y su módulo queda:
 F = I \cdot \ell \cdot B \cdot \sin\alpha
 \end{equation}
 
-En esta fórmula, $\vec{\ell}$ es un vector cuya dirección y sentido coinciden con los de la corriente, y cuyo módulo es la longitud del tramo considerado del hilo. Además, la dirección y sentido de la fuerza pueden deducirse mediante el cálculo del producto vectorial o la regla de la mano derecha (epígrafe \ref{MAGN_EPIGRAFEPRODUCTOVECTORIAL}).
+En esta fórmula, $\vec{\ell}$ es un vector cuya \textbf{dirección} y \textbf{sentido} coinciden con los de la corriente, y cuyo módulo es la longitud del tramo considerado del hilo. Además, la \textbf{dirección} y \textbf{sentido} de la fuerza pueden deducirse mediante el cálculo del producto vectorial o la regla de la \textbf{mano derecha} (epígrafe \ref{MAGN_EPIGRAFEPRODUCTOVECTORIAL}).
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.7]{MAGN_FUERZAHILO}
 	\caption{Fuerzas que actúan sobre un hilo de corriente}
 	\label{MAGN_FUERZAHILO}
+\end{figure}
+
+\clearpage
+
+\subsection{Campo Magnético creado por un Hilo de Corriente}
+
+Un \textbf{hilo} de corriente por el que pasa una \textbf{intensidad} $I$ crea un \textbf{campo magnético} en sus \textbf{proximidades}. Para un punto $P$ cuya distancia más corta al hilo sea $x$, el módulo de la \textbf{intensidad de campo} es:
+
+\begin{equation}\label{MAGN_CAMPOCREADOHILO}
+	B = \frac{\mu}{2\pi} \cdot \frac{I}{x}
+\end{equation}
+
+Las líneas de campo son circunferencias \textbf{centradas} en el hilo, que se encuentran en el plano \textbf{perpendicular} al \textbf{hilo} y su sentido viene dado por la \textbf{regla del sacacorchos} (figura \ref{MAGN_SACACORCHOS}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{MAGN_CAMPOCREADOHILO}
+	\caption{Campo magnético creado por un hilo de corriente}
+	\label{MAGN_CAMPOCREADOHILO}
 \end{figure}
 
 \begin{mybox}{Conceptos Clave: Campo Magnético}
@@ -847,6 +866,8 @@ En esta fórmula, $\vec{\ell}$ es un vector cuya dirección y sentido coinciden 
 		\textsc{Energía Cinética Máxima (Ciclotrón)} & $\displaystyle E_{\textnormal{c,max}} = \frac{q^2 B^2 R^2}{2m}$ & \unit{\joule} \\
 
 		\textsc{Fuerza sobre un hilo de corriente} & $\displaystyle \vec{F} = I\vec{\ell} \times \vec{B}$ & \unit{\newton} \\
+
+		\textsc{Campo magnético creado por un hilo de corriente} & $\displaystyle B = \frac{\mu}{2\pi} \cdot \frac{I}{x}$ & \unit{\tesla} \\
 		
 		\bottomrule
 	\end{tabularx}

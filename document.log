@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.15)  27 NOV 2025 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.15)  28 NOV 2025 18:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -964,6 +964,12 @@ LaTeX Warning: Label `MAGN_FUERZAHILO' multiply defined.
 
 LaTeX Warning: Label `MAGN_FUERZAHILO@cref' multiply defined.
 
+
+LaTeX Warning: Label `MAGN_CAMPOCREADOHILO' multiply defined.
+
+
+LaTeX Warning: Label `MAGN_CAMPOCREADOHILO@cref' multiply defined.
+
 )
 \openout1 = `document.aux'.
 
@@ -1091,12 +1097,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.83 \clearpage
                 [1]
-<FIGURES/GRAV_1LEYKEPLER.jpg, id=296, 823.075pt x 528.97626pt>
+<FIGURES/GRAV_1LEYKEPLER.jpg, id=301, 823.075pt x 528.97626pt>
 File: FIGURES/GRAV_1LEYKEPLER.jpg Graphic file (type jpg)
 <use FIGURES/GRAV_1LEYKEPLER.jpg>
 Package pdftex.def Info: FIGURES/GRAV_1LEYKEPLER.jpg  used on input line 102.
 (pdftex.def)             Requested size: 164.61208pt x 105.79337pt.
-<FIGURES/GRAV_2LEYKEPLER.jpeg, id=297, 471.7625pt x 328.22626pt>
+<FIGURES/GRAV_2LEYKEPLER.jpeg, id=302, 471.7625pt x 328.22626pt>
 File: FIGURES/GRAV_2LEYKEPLER.jpeg Graphic file (type jpg)
 <use FIGURES/GRAV_2LEYKEPLER.jpeg>
 Package pdftex.def Info: FIGURES/GRAV_2LEYKEPLER.jpeg  used on input line 119.
@@ -1109,29 +1115,29 @@ l.128 \begin{equation}
                       \label{GRAV_3LEYKEPLER} [1
 
  <./FIGURES/GRAV_1LEYKEPLER.jpg> <./FIGURES/GRAV_2LEYKEPLER.jpeg>] [2]
-<FIGURES/GRAV_CAMPOGRAV.png, id=319, 169.19398pt x 61.39325pt>
+<FIGURES/GRAV_CAMPOGRAV.png, id=324, 169.19398pt x 61.39325pt>
 File: FIGURES/GRAV_CAMPOGRAV.png Graphic file (type png)
 <use FIGURES/GRAV_CAMPOGRAV.png>
 Package pdftex.def Info: FIGURES/GRAV_CAMPOGRAV.png  used on input line 212.
 (pdftex.def)             Requested size: 338.38712pt x 122.78616pt.
  [3 <./FIGURES/GRAV_CAMPOGRAV.png>] [4] [5] [6] [7]
-<FIGURES/ELEC_LINEAS.jpeg, id=373, 501.875pt x 246.9225pt>
+<FIGURES/ELEC_LINEAS.jpeg, id=378, 501.875pt x 246.9225pt>
 File: FIGURES/ELEC_LINEAS.jpeg Graphic file (type jpg)
 <use FIGURES/ELEC_LINEAS.jpeg>
 Package pdftex.def Info: FIGURES/ELEC_LINEAS.jpeg  used on input line 396.
 (pdftex.def)             Requested size: 301.12732pt x 148.15462pt.
  [8 <./FIGURES/ELEC_LINEAS.jpeg>] [9]
-<FIGURES/ELEC_LINEASCAMPOSUNIFORMES.png, id=393, 1259.70625pt x 670.505pt>
+<FIGURES/ELEC_LINEASCAMPOSUNIFORMES.png, id=398, 1259.70625pt x 670.505pt>
 File: FIGURES/ELEC_LINEASCAMPOSUNIFORMES.png Graphic file (type png)
 <use FIGURES/ELEC_LINEASCAMPOSUNIFORMES.png>
 Package pdftex.def Info: FIGURES/ELEC_LINEASCAMPOSUNIFORMES.png  used on input line 457.
 (pdftex.def)             Requested size: 188.94778pt x 100.57141pt.
-<FIGURES/ELEC_CAMPOSLAMINASINFINITAS.png, id=395, 1253.68375pt x 1169.36874pt>
+<FIGURES/ELEC_CAMPOSLAMINASINFINITAS.png, id=400, 1253.68375pt x 1169.36874pt>
 File: FIGURES/ELEC_CAMPOSLAMINASINFINITAS.png Graphic file (type png)
 <use FIGURES/ELEC_CAMPOSLAMINASINFINITAS.png>
 Package pdftex.def Info: FIGURES/ELEC_CAMPOSLAMINASINFINITAS.png  used on input line 490.
 (pdftex.def)             Requested size: 62.68785pt x 58.47186pt.
-<FIGURES/ELEC_CAMPOSHILOINFINITO.png, id=396, 302.12875pt x 491.8375pt>
+<FIGURES/ELEC_CAMPOSHILOINFINITO.png, id=401, 302.12875pt x 491.8375pt>
 File: FIGURES/ELEC_CAMPOSHILOINFINITO.png Graphic file (type png)
 <use FIGURES/ELEC_CAMPOSHILOINFINITO.png>
 Package pdftex.def Info: FIGURES/ELEC_CAMPOSHILOINFINITO.png  used on input line 507.
@@ -1141,58 +1147,66 @@ Package pdftex.def Info: FIGURES/ELEC_CAMPOSHILOINFINITO.png  used on input line
  <./FIGURES/ELEC_LINEASCAMPOSUNIFORMES.png> <./FIGURES/ELEC_CAMPOSLAMINASINFINITAS.png>] [11 <./FIGURES/ELEC_CAMPOSHILOINFINITO.png>] [12
 
 ]
-<FIGURES/MAGN_LINEASHILO.png, id=422, 408.52625pt x 303.1325pt>
+<FIGURES/MAGN_LINEASHILO.png, id=427, 408.52625pt x 303.1325pt>
 File: FIGURES/MAGN_LINEASHILO.png Graphic file (type png)
 <use FIGURES/MAGN_LINEASHILO.png>
 Package pdftex.def Info: FIGURES/MAGN_LINEASHILO.png  used on input line 603.
 (pdftex.def)             Requested size: 122.55882pt x 90.94044pt.
-<FIGURES/MAGN_LINEASIMAN.jpg, id=423, 602.25pt x 401.5pt>
+<FIGURES/MAGN_LINEASIMAN.jpg, id=428, 602.25pt x 401.5pt>
 File: FIGURES/MAGN_LINEASIMAN.jpg Graphic file (type jpg)
 <use FIGURES/MAGN_LINEASIMAN.jpg>
 Package pdftex.def Info: FIGURES/MAGN_LINEASIMAN.jpg  used on input line 609.
 (pdftex.def)             Requested size: 120.44786pt x 80.29857pt.
  [13 <./FIGURES/MAGN_LINEASHILO.png> <./FIGURES/MAGN_LINEASIMAN.jpg>]
-<FIGURES/MAGN_MOVIMIENTO.png, id=439, 408.17282pt x 246.32874pt>
+<FIGURES/MAGN_MOVIMIENTO.png, id=444, 408.17282pt x 246.32874pt>
 File: FIGURES/MAGN_MOVIMIENTO.png Graphic file (type png)
 <use FIGURES/MAGN_MOVIMIENTO.png>
 Package pdftex.def Info: FIGURES/MAGN_MOVIMIENTO.png  used on input line 657.
 (pdftex.def)             Requested size: 204.0859pt x 123.16406pt.
  [14 <./FIGURES/MAGN_MOVIMIENTO.png>]
-<FIGURES/MAGN_MANODERECHA.png, id=449, 2411.0075pt x 2581.645pt>
+<FIGURES/MAGN_MANODERECHA.png, id=454, 2411.0075pt x 2581.645pt>
 File: FIGURES/MAGN_MANODERECHA.png Graphic file (type png)
 <use FIGURES/MAGN_MANODERECHA.png>
 Package pdftex.def Info: FIGURES/MAGN_MANODERECHA.png  used on input line 687.
 (pdftex.def)             Requested size: 72.3271pt x 77.446pt.
-<FIGURES/MAGN_SACACORCHOS.png, id=450, 102.1416pt x 98.5281pt>
+<FIGURES/MAGN_SACACORCHOS.png, id=455, 102.1416pt x 98.5281pt>
 File: FIGURES/MAGN_SACACORCHOS.png Graphic file (type png)
 <use FIGURES/MAGN_SACACORCHOS.png>
 Package pdftex.def Info: FIGURES/MAGN_SACACORCHOS.png  used on input line 693.
 (pdftex.def)             Requested size: 102.14134pt x 98.52785pt.
-<FIGURES/MAGN_SELECTORDEVELOCIDADES.png, id=452, 837.1275pt x 595.22375pt>
+<FIGURES/MAGN_SELECTORDEVELOCIDADES.png, id=457, 837.1275pt x 595.22375pt>
 File: FIGURES/MAGN_SELECTORDEVELOCIDADES.png Graphic file (type png)
 <use FIGURES/MAGN_SELECTORDEVELOCIDADES.png>
 Package pdftex.def Info: FIGURES/MAGN_SELECTORDEVELOCIDADES.png  used on input line 709.
 (pdftex.def)             Requested size: 167.42253pt x 119.04263pt.
-<FIGURES/MAGN_ESPECTROMETRO.png, id=453, 501.875pt x 308.15125pt>
+<FIGURES/MAGN_ESPECTROMETRO.png, id=458, 501.875pt x 308.15125pt>
 File: FIGURES/MAGN_ESPECTROMETRO.png Graphic file (type png)
 <use FIGURES/MAGN_ESPECTROMETRO.png>
 Package pdftex.def Info: FIGURES/MAGN_ESPECTROMETRO.png  used on input line 726.
 (pdftex.def)             Requested size: 200.74643pt x 123.2583pt.
  [15 <./FIGURES/MAGN_MANODERECHA.png> <./FIGURES/MAGN_SACACORCHOS.png> <./FIGURES/MAGN_SELECTORDEVELOCIDADES.png>]
-<FIGURES/MAGN_CICLOTRON.png, id=465, 311.1625pt x 298.11375pt>
+<FIGURES/MAGN_CICLOTRON.png, id=470, 311.1625pt x 298.11375pt>
 File: FIGURES/MAGN_CICLOTRON.png Graphic file (type png)
 <use FIGURES/MAGN_CICLOTRON.png>
 Package pdftex.def Info: FIGURES/MAGN_CICLOTRON.png  used on input line 737.
 (pdftex.def)             Requested size: 140.02182pt x 134.14995pt.
  [16 <./FIGURES/MAGN_ESPECTROMETRO.png> <./FIGURES/MAGN_CICLOTRON.png>] [17]
-<FIGURES/MAGN_FUERZAHILO.png, id=485, 351.3125pt x 188.705pt>
+<FIGURES/MAGN_FUERZAHILO.png, id=490, 351.3125pt x 188.705pt>
 File: FIGURES/MAGN_FUERZAHILO.png Graphic file (type png)
 <use FIGURES/MAGN_FUERZAHILO.png>
 Package pdftex.def Info: FIGURES/MAGN_FUERZAHILO.png  used on input line 800.
 (pdftex.def)             Requested size: 245.91707pt x 132.09259pt.
  [18
 
- <./FIGURES/MAGN_FUERZAHILO.png>] [19] [20
+ <./FIGURES/MAGN_FUERZAHILO.png>]
+<FIGURES/MAGN_CAMPOCREADOHILO.jpg, id=502, 513.92pt x 384.43625pt>
+File: FIGURES/MAGN_CAMPOCREADOHILO.jpg Graphic file (type jpg)
+<use FIGURES/MAGN_CAMPOCREADOHILO.jpg>
+Package pdftex.def Info: FIGURES/MAGN_CAMPOCREADOHILO.jpg  used on input line 819.
+(pdftex.def)             Requested size: 205.56435pt x 153.77177pt.
+ [19
+
+ <./FIGURES/MAGN_CAMPOCREADOHILO.jpg>] [20
 
 ] (./document.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -1207,21 +1221,21 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: D1C14F89003A69675C327B3EEAA3902A;8849.
+(rerunfilecheck)             Checksum: 31424ACD8145C85DB066FF7F6BF1FB4E;9166.
  ) 
 Here is how much of TeX's memory you used:
- 50355 strings out of 474116
- 1187151 string characters out of 5743682
+ 50369 strings out of 474116
+ 1187537 string characters out of 5743682
  1947187 words of memory out of 5000000
- 71557 multiletter control sequences out of 15000+600000
- 601464 words of font info for 266 fonts, out of 8000000 for 9000
+ 71566 multiletter control sequences out of 15000+600000
+ 601535 words of font info for 267 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,107p,1077b,1316s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,16n,107p,1077b,1263s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfxc2488.pfb>
-Output written on document.pdf (23 pages, 1487560 bytes).
+Output written on document.pdf (23 pages, 1532646 bytes).
 PDF statistics:
- 643 PDF objects out of 1000 (max. 8388607)
- 512 compressed objects within 6 object streams
- 146 named destinations out of 1000 (max. 500000)
- 86621 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 520 compressed objects within 6 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 86634 words of extra memory for PDF output out of 89155 (max. 10000000)
 
