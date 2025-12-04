@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1764796897.84913 "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" "document.pdf" "document" 1764796900.87579 0
-  "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" 1764796891.6332 40019 1ae078e9925f4f03e883ab60df53b889 ""
+["pdflatex"] 1764864724.01939 "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" "document.pdf" "document" 1764864727.06717 0
+  "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" 1764864720.57336 40180 ba2aca1ac75e54289aaa2facf655fb2b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -317,6 +317,7 @@
   "FIGURES/GRAV_1LEYKEPLER.jpg" 1761841820.57013 14954 0977de49f9ef777339c7d27c6cea4a3b ""
   "FIGURES/GRAV_2LEYKEPLER.jpeg" 1761842459.38984 23563 d0c78c13d81e64ad081c0109c19ef310 ""
   "FIGURES/GRAV_CAMPOGRAV.png" 1761853681.36068 31885 adf724d2f5ffff99c6f9ffb0132668ef ""
+  "FIGURES/MAGN_AMPERIO.png" 1764864683.97639 183622 2d350f13964396c4ba30a65f276f3312 ""
   "FIGURES/MAGN_CAMPOCREADOHILO.jpg" 1764351839.29244 43060 0ac451a328db2a7a3ccda74a4235b6da ""
   "FIGURES/MAGN_CICLOTRON.png" 1762970362.98133 11468 72082e05c9f1f51fcb3191d06e29b3d6 ""
   "FIGURES/MAGN_ESPECTROMETRO.png" 1762969773.89877 61201 30f09593940068f08805eb0042c23218 ""
@@ -329,10 +330,10 @@
   "FIGURES/MAGN_MOVIMIENTO.png" 1762878808.01512 21867 43df134034628a87e24c020c354aa0b4 ""
   "FIGURES/MAGN_SACACORCHOS.png" 1763739857.41185 9592 fcabe4e67c32bbc4247f9bc81f8292e6 ""
   "FIGURES/MAGN_SELECTORDEVELOCIDADES.png" 1762969295.87487 294306 b070f2832d9ec5801ced0dbbb980f90b ""
-  "document.aux" 1764796900.71914 21755 268fb5b9eb9fc2311959e528e05b4011 "pdflatex"
-  "document.out" 1764796900.72219 9529 6f49ed0bb6e34fb7ea55ddcf1295ac78 "pdflatex"
-  "document.tex" 1764796891.6332 40019 1ae078e9925f4f03e883ab60df53b889 ""
-  "document.toc" 1764796900.7225 4757 a63f12e82575c3d8fea7106becaf12d3 "pdflatex"
+  "document.aux" 1764864726.90609 22096 7f3a6c901acce95ea7e5d40e30649e10 "pdflatex"
+  "document.out" 1764864726.9093 9529 6f49ed0bb6e34fb7ea55ddcf1295ac78 "pdflatex"
+  "document.tex" 1764864720.57336 40180 ba2aca1ac75e54289aaa2facf655fb2b ""
+  "document.toc" 1764864726.90972 4757 a63f12e82575c3d8fea7106becaf12d3 "pdflatex"
   (generated)
   "document.aux"
   "document.log"

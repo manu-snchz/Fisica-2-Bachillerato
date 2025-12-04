@@ -684,7 +684,7 @@ También se puede usar la regla de la mano derecha o del sacacorchos:
 	\centering
 	\begin{subfigure}{0.45\textwidth}
 		\centering
-		\includegraphics[scale=0.03]{MAGN_MANODERECHA}
+		\includegraphics[scale=0.03]{MAGN_MANODERECHA.png}
 		\caption{Regla de la Mano Derecha}
 		\label{MAGN_MANODERECHA}
 	\end{subfigure}
@@ -783,7 +783,7 @@ Como $\vec{v} \cdot dt = d\vec{\ell}$, siendo $d\vec{\ell}$ un elemento de \text
 d\vec{F}_B = I \cdot d\vec{\ell} \times \vec{B}
 \end{equation}
 
-\begin{equation}\label{MAGN_FUERZAHILO}
+\begin{equation}\label{MAGN_FUERZAHILOFORMULA}
 \vec{F}_B = I \cdot \vec{\ell} \times \vec{B}
 \end{equation}
 
@@ -808,7 +808,7 @@ En esta fórmula, $\vec{\ell}$ es un vector cuya \textbf{dirección} y \textbf{s
 
 Un \textbf{hilo} de corriente por el que pasa una \textbf{intensidad} $I$ crea un \textbf{campo magnético} en sus \textbf{proximidades}. Para un punto $P$ cuya distancia más corta al hilo sea $x$, el módulo de la \textbf{intensidad de campo} es:
 
-\begin{equation}\label{MAGN_CAMPOCREADOHILO}
+\begin{equation}\label{MAGN_CAMPOCREADOHILOFORMULA}
 	B = \frac{\mu}{2\pi} \cdot \frac{I}{x}
 \end{equation}
 
@@ -839,7 +839,7 @@ Fuerza que sufre la \textbf{corriente 2}:
 	F_{12} = I_2 \cdot \ell \cdot B_1 
 \end{equation}
 
-Sustituyendo la ecuación \ref{MAGN_CAMPOCREADOHILO1} en la ecuación \ref{MAGN_FUERZAHILO2}:
+Sustituyendo \ref{MAGN_CAMPOCREADOHILO1} en \ref{MAGN_FUERZAHILO2}:
 
 \begin{equation}
 	F_{12} = I_2 \cdot \ell \cdot \frac{\mu}{2\pi} \cdot \frac{I_1}{d}
@@ -857,27 +857,37 @@ La fuerza se suele medir por \textbf{unidad de longitud} ($\frac{F}{\ell}$).
 		\centering
 		\includegraphics[scale=0.25]{MAGN_HILOSINTERACCION.png}
 		\caption{Mismo Sentido}
-		\label{MAGN_MANODERECHA}
+		\label{MAGN_MISMOSSENTIDO}
 	\end{subfigure}
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[scale=0.25]{MAGN_HILOSINTERACCION2.png}
 		\caption{Sentido Contrario}
-		\label{MAGN_SACACORCHOS}
+		\label{MAGN_SENTIDONOTRAS}
 	\end{subfigure}
 	\caption{Interacciones entre hilos de corriente}
-	\label{MAGN_MANODERECHASACACORCHOS}
+	\label{MAGN_HILOSINTERACCION}
 \end{figure}
 
 \subsection{Definición de Amperio}
 
-Hasta el año 2019, el amperio (la intensidad de la corriente), se definía sobre la base de la fuerza de interacción magnética entre dos conductores rectilíneos paralelos. Si $I_1 = I_2 = \SI{1}\ampere$ y $d = \SI{1}\metre$, dado que $\mu = 4 \pi \cdot 10^{-7} \unit{\newton\per\ampere\squared}$:
+Hasta el año 2019, el \textbf{amperio} (la intensidad de la corriente), se definía sobre la base de la fuerza de interacción magnética entre dos conductores rectilíneos paralelos. Si $I_1 = I_2 = \SI{1}\ampere$ y $d = \SI{1}\metre$, dado que $\mu = 4 \pi \cdot 10^{-7} \unit{\newton\per\ampere\squared}$:
 
 \begin{equation}
 	\frac{F_{12}}{\ell} = \frac{\mu}{2\pi} \cdot \frac{1 \unit{\ampere} \cdot 1 \unit{\ampere}}{1 \unit{\metre}} = 2 \cdot 10^{-7} \unit{\newton\per\metre}
 \end{equation}
 
 Así, un amperio internacional o Ampère ($A$) era la intensidad de corriente eléctrica que debía circular por dos conductores rectilíneos, paralelos e indefinidos para que, separados por una distancia de $1 \unit{\metre}$, ejerciera una fuerza entre ellos de $2 \cdot 10^{-7} \unit{\newton}$ por cada metro de conductor. A partir de 2019, se definió el amperio a partir de la carga elemental del electrón.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{MAGN_AMPERIO.png}
+	\caption{Definición del amperio hasta 2019}
+	\label{MAGN_AMPERIO}
+\end{figure}
+
+
+
 \begin{mybox}{Conceptos Clave: Campo Magnético}
 	\begin{itemize}
 		\item \textbf{Trabajo Nulo:} La fuerza magnética \textbf{nunca} realiza trabajo ($W=0$) porque es siempre perpendicular a la velocidad.
