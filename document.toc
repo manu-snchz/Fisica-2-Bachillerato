@@ -46,4 +46,6 @@
 \contentsline {subsection}{\numberline {3.6}Ciclotrón}{16}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Efecto de un Campo Magnético sobre un Hilo de Corriente}{18}{subsection.3.7}%
 \contentsline {subsection}{\numberline {3.8}Campo Magnético creado por un Hilo de Corriente}{19}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}Resumen de Fórmulas}{20}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.9}Acciones entre corrientes}{20}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Definición de Amperio}{21}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Resumen de Fórmulas}{22}{subsection.3.11}%

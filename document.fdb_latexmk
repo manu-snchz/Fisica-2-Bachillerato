@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1764352000.54696 "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" "document.pdf" "document" 1764352003.51724 0
-  "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" 1764352000.27684 37295 b3cdfe27e8d3a92c4d8bc2276cf65c20 ""
+["pdflatex"] 1764796897.84913 "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" "document.pdf" "document" 1764796900.87579 0
+  "/Users/manuelsanchez2/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.tex" 1764796891.6332 40019 1ae078e9925f4f03e883ab60df53b889 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -321,16 +321,18 @@
   "FIGURES/MAGN_CICLOTRON.png" 1762970362.98133 11468 72082e05c9f1f51fcb3191d06e29b3d6 ""
   "FIGURES/MAGN_ESPECTROMETRO.png" 1762969773.89877 61201 30f09593940068f08805eb0042c23218 ""
   "FIGURES/MAGN_FUERZAHILO.png" 1764260309.14954 25238 d0e2bf7f2aab7be59900e973505e3c58 ""
+  "FIGURES/MAGN_HILOSINTERACCION.png" 1764794066.05892 20157 c39a8a8b6bc8c4016ec83055a4dcc233 ""
+  "FIGURES/MAGN_HILOSINTERACCION2.png" 1764794080.64275 20286 c9fd8e375d115534fe9bb305b704ff7e ""
   "FIGURES/MAGN_LINEASHILO.png" 1762875460.12179 15353 e74dada2d78ecfe3a249ec379d647a5f ""
   "FIGURES/MAGN_LINEASIMAN.jpg" 1762875379.77529 24143 d8f4f1feaf8c465566113814fdee28d1 ""
   "FIGURES/MAGN_MANODERECHA.png" 1763739631.29642 232717 8e71e794f1db275de124be08c7b15bef ""
   "FIGURES/MAGN_MOVIMIENTO.png" 1762878808.01512 21867 43df134034628a87e24c020c354aa0b4 ""
   "FIGURES/MAGN_SACACORCHOS.png" 1763739857.41185 9592 fcabe4e67c32bbc4247f9bc81f8292e6 ""
   "FIGURES/MAGN_SELECTORDEVELOCIDADES.png" 1762969295.87487 294306 b070f2832d9ec5801ced0dbbb980f90b ""
-  "document.aux" 1764352003.34625 20067 f0255c92e5570e27334d4b0b15a82454 "pdflatex"
-  "document.out" 1764352003.34945 9166 31424acd8145c85db066ff7f6bf1fb4e "pdflatex"
-  "document.tex" 1764352000.27684 37295 b3cdfe27e8d3a92c4d8bc2276cf65c20 ""
-  "document.toc" 1764352003.3499 4572 be2d0ff8ae2089c9509968221262f732 "pdflatex"
+  "document.aux" 1764796900.71914 21755 268fb5b9eb9fc2311959e528e05b4011 "pdflatex"
+  "document.out" 1764796900.72219 9529 6f49ed0bb6e34fb7ea55ddcf1295ac78 "pdflatex"
+  "document.tex" 1764796891.6332 40019 1ae078e9925f4f03e883ab60df53b889 ""
+  "document.toc" 1764796900.7225 4757 a63f12e82575c3d8fea7106becaf12d3 "pdflatex"
   (generated)
   "document.aux"
   "document.log"

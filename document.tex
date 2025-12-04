@@ -816,11 +816,68 @@ Las líneas de campo son circunferencias \textbf{centradas} en el hilo, que se e
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.4]{MAGN_CAMPOCREADOHILO}
+	\includegraphics[scale=0.5]{MAGN_CAMPOCREADOHILO}
 	\caption{Campo magnético creado por un hilo de corriente}
 	\label{MAGN_CAMPOCREADOHILO}
 \end{figure}
 
+\clearpage
+
+\subsection{Acciones entre corrientes}
+
+Si circulan \textbf{corrientes} por \textbf{varios hilos paralelos}, se dan \textbf{interacciones magnéticas} entre ellas. Una situación en la que esto puede ocurrir es en los cables que transportan corriente en la red eléctrica. Supongamos que dos hilos paralelos, de longitud $L$ y separados una distancia $d$. Cada uno de ellos creará un \textbf{campo magnético} $B$ que podemos calcular:
+
+Campo que crea la \textbf{corriente 1} sobre \textbf{2}:
+
+\begin{equation}\label{MAGN_CAMPOCREADOHILO1}
+	B_{1} = \frac{\mu}{2\pi} \cdot \frac{I_1}{d}
+\end{equation}
+
+Fuerza que sufre la \textbf{corriente 2}:
+
+\begin{equation}\label{MAGN_FUERZAHILO2}
+	F_{12} = I_2 \cdot \ell \cdot B_1 
+\end{equation}
+
+Sustituyendo la ecuación \ref{MAGN_CAMPOCREADOHILO1} en la ecuación \ref{MAGN_FUERZAHILO2}:
+
+\begin{equation}
+	F_{12} = I_2 \cdot \ell \cdot \frac{\mu}{2\pi} \cdot \frac{I_1}{d}
+\end{equation}
+
+La fuerza se suele medir por \textbf{unidad de longitud} ($\frac{F}{\ell}$).
+
+\begin{equation}\label{MAGN_FUERZAPORUNIDADA}
+	\frac{F_{12}}{\ell} = \frac{\mu}{2\pi} \cdot \frac{I_1 I_2}{d}
+\end{equation}
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.25]{MAGN_HILOSINTERACCION.png}
+		\caption{Mismo Sentido}
+		\label{MAGN_MANODERECHA}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.25]{MAGN_HILOSINTERACCION2.png}
+		\caption{Sentido Contrario}
+		\label{MAGN_SACACORCHOS}
+	\end{subfigure}
+	\caption{Interacciones entre hilos de corriente}
+	\label{MAGN_MANODERECHASACACORCHOS}
+\end{figure}
+
+\subsection{Definición de Amperio}
+
+Hasta el año 2019, el amperio (la intensidad de la corriente), se definía sobre la base de la fuerza de interacción magnética entre dos conductores rectilíneos paralelos. Si $I_1 = I_2 = \SI{1}\ampere$ y $d = \SI{1}\metre$, dado que $\mu = 4 \pi \cdot 10^{-7} \unit{\newton\per\ampere\squared}$:
+
+\begin{equation}
+	\frac{F_{12}}{\ell} = \frac{\mu}{2\pi} \cdot \frac{1 \unit{\ampere} \cdot 1 \unit{\ampere}}{1 \unit{\metre}} = 2 \cdot 10^{-7} \unit{\newton\per\metre}
+\end{equation}
+
+Así, un amperio internacional o Ampère ($A$) era la intensidad de corriente eléctrica que debía circular por dos conductores rectilíneos, paralelos e indefinidos para que, separados por una distancia de $1 \unit{\metre}$, ejerciera una fuerza entre ellos de $2 \cdot 10^{-7} \unit{\newton}$ por cada metro de conductor. A partir de 2019, se definió el amperio a partir de la carga elemental del electrón.
 \begin{mybox}{Conceptos Clave: Campo Magnético}
 	\begin{itemize}
 		\item \textbf{Trabajo Nulo:} La fuerza magnética \textbf{nunca} realiza trabajo ($W=0$) porque es siempre perpendicular a la velocidad.
@@ -868,6 +925,8 @@ Las líneas de campo son circunferencias \textbf{centradas} en el hilo, que se e
 		\textsc{Fuerza sobre un hilo de corriente} & $\displaystyle \vec{F} = I\vec{\ell} \times \vec{B}$ & \unit{\newton} \\
 
 		\textsc{Campo magnético creado por un hilo de corriente} & $\displaystyle B = \frac{\mu}{2\pi} \cdot \frac{I}{x}$ & \unit{\tesla} \\
+
+		\textsc{Fuerza entre corrientes} & $\displaystyle \frac{F_{12}}{\ell} = \frac{\mu}{2\pi} \cdot \frac{I_1 I_2}{d}$ & \unit{\newton\per\meter} \\
 		
 		\bottomrule
 	\end{tabularx}
