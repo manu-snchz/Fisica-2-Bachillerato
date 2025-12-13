@@ -882,13 +882,13 @@ La fuerza se suele medir por \textbf{unidad de longitud} ($\frac{F}{\ell}$).
 
 \subsection{Definición de Amperio}
 
-Hasta el año 2019, el \textbf{amperio} (la intensidad de la corriente), se definía sobre la base de la fuerza de interacción magnética entre dos conductores rectilíneos paralelos. Si $I_1 = I_2 = \SI{1}\ampere$ y $d = \SI{1}\metre$, dado que $\mu = 4 \pi \cdot 10^{-7} \unit{\newton\per\ampere\squared}$:
+Hasta el año 2019, el \textbf{amperio} (la intensidad de la corriente), se definía sobre la base de la \textbf{fuerza} de interacción magnética entre dos \textbf{conductores rectilíneos paralelos}. Si $I_1 = I_2 = \SI{1}\ampere$ y $d = \SI{1}\metre$, dado que $\mu = 4 \pi \times 10^{-7} \unit{\newton\per\ampere\squared}$:
 
 \begin{equation}
 	\frac{F_{12}}{\ell} = \frac{\mu}{2\pi} \cdot \frac{1 \unit{\ampere} \cdot 1 \unit{\ampere}}{1 \unit{\metre}} = 2 \cdot 10^{-7} \unit{\newton\per\metre}
 \end{equation}
 
-Así, un amperio internacional o Ampère ($A$) era la intensidad de corriente eléctrica que debía circular por dos conductores rectilíneos, paralelos e indefinidos para que, separados por una distancia de $1 \unit{\metre}$, ejerciera una fuerza entre ellos de $2 \cdot 10^{-7} \unit{\newton}$ por cada metro de conductor. A partir de 2019, se definió el amperio a partir de la carga elemental del electrón.
+Así, un amperio internacional o Ampère ($A$) era la \textbf{intensidad} de corriente eléctrica que debía circular por dos conductores \textbf{rectilíneos, paralelos e indefinidos} para que, separados por una distancia de $\SI{1}{\metre}$, ejerciera una \textbf{fuerza} entre ellos de $\SI{2e-7}{\newton\per\metre}$ \textbf{por} cada \textbf{metro} de conductor. A partir de 2019, se definió el amperio a partir de la carga elemental del electrón.
 
 \begin{figure}[H]
 	\centering
@@ -961,13 +961,13 @@ Así, un amperio internacional o Ampère ($A$) era la intensidad de corriente el
 
 \subsection{El Flujo Magnético}
 
-El flujo magnético ($\phi$) se define, en una superficie, como el número de líneas de inducción que la atraviesan. Este número número de líneas por superficie perpedincular a las mismas indica la intensidad del campo, es decir:
+El \textbf{flujo magnético} ($\phi$) se define, en una \textbf{superficie}, como el número de \textbf{líneas de inducción} que la \textbf{atraviesan}. Este número número de \textbf{líneas por superficie} perpedincular a las mismas indica la intensidad del campo, es decir:
 
 \begin{equation}\label{INDUCC_FLUJO1}
 	\phi = \vec{B} \cdot \vec{S} \Longrightarrow \phi = B \cdot S \cdot \cos \varphi 
 \end{equation}
 
-El flujo magnético se mide en Weber (\unit{\weber}).
+El flujo magnético se mide en \textbf{Wéber} (\unit{\weber}).
 
 \begin{figure}[H]
 	\centering
@@ -978,13 +978,13 @@ El flujo magnético se mide en Weber (\unit{\weber}).
 
 \subsection{Ley de Faraday--Lenz}
 
-La Ley de Faraday--Lenz establece que cuando el \textbf{flujo magnético} que atraviesa un circuito varía, aparece una \textbf{fuerza electromotriz} (fem) inducida. Su valor viene dado por:
+La Ley de Faraday--Lenz establece que cuando el \textbf{flujo magnético} que atraviesa un circuito varía, aparece una \textbf{fuerza electromotriz} (\textit{fem}) inducida. Su valor viene dado por:
 
-\[
+\begin{equation}\label{INDUCC_LEYFARADAYLENZ}
 \varepsilon = -\frac{d\phi}{dt}
-\]
+\end{equation}
 
-El signo \textbf{negativo} indica que la corriente inducida \textbf{siempre se opone} al cambio de flujo que la produce (sentido de Lenz). La fem \(\varepsilon\) es la energía por unidad de carga que surge en el circuito debido a esa variación de flujo y se mide en voltios (\unit{\volt}). \textbf{Ejemplo:} Si un imán se acerca a una espira, el flujo magnético aumenta y aparece una corriente cuyo campo se opone a ese acercamiento. Si el imán se aleja, el flujo disminuye y la corriente inducida cambia de sentido para intentar mantener el flujo anterior.
+El signo \textbf{negativo} de la fórmula \ref{INDUCC_LEYFARADAYLENZ} indica que la \textbf{corriente} inducida \textbf{siempre se opone} al cambio de flujo que la produce (sentido de Lenz). La \textbf{fem} \(\varepsilon\) es la energía por unidad de carga que surge en el circuito debido a esa variación de flujo y se mide en voltios (\unit{\volt}). \textbf{Ejemplo:} Si un imán se acerca a una espira, el flujo magnético aumenta y aparece una corriente cuyo campo se opone a ese acercamiento. Si el imán se aleja, el flujo disminuye y la corriente inducida cambia de sentido para intentar mantener el flujo anterior.
 
 \clearpage
 
@@ -993,7 +993,7 @@ El signo \textbf{negativo} indica que la corriente inducida \textbf{siempre se o
 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[scale=0.2]{INDUCC_EJEMPLO1}
+		\includegraphics[scale=0.1]{INDUCC_EJEMPLO1}
 		\caption{}
 		\label{INDUCC_EJEMPLO1}
 	\end{figure}
@@ -1033,6 +1033,5 @@ El signo \textbf{negativo} indica que la corriente inducida \textbf{siempre se o
 	\end{equation}
 
 \end{mybox}
-
 
 \end{document}
