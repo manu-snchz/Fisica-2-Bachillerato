@@ -1014,16 +1014,10 @@ El signo \textbf{negativo} de la fórmula \ref{INDUCC_LEYFARADAYLENZ} indica que
 		\phi = B \cdot \frac{v^2 t^2}{2}
 	\end{equation}
 
-	Sustituyendo los datos que ya tenemos:
+	Sustituyendo los datos que ya tenemos y derivando para obtener la fem inducida:
 
 	\begin{equation}
-		\phi (t) = B \frac{4t^2}{2} = 2Bt^2 
-	\end{equation}
-
-	Con esto, podemos calcular la fem inducida:
-
-	\begin{equation}
-		\varepsilon = -\frac{d\phi}{dt} = -4Bt
+		\phi (t) = B \frac{4t^2}{2} = 2Bt^2  \Longrightarrow \varepsilon = -\frac{d\phi}{dt} = -4Bt
 	\end{equation}
 
 	Sin embargo, en esta ecuación no se está teniendo en cuenta que la espira se encuentra a 2 metros de la región del campo magnético, por lo que el tiempo que usaremos será $t_{\textnormal{desfase}} = \frac{\SI{2}{\meter}}{\SI{2}{\meter\per\second}} = \SI{1}{\second}$. El tiempo que usaremos en la ecueción serán los dos segundos del enunciado menos el segundo de desfase $t = \SI{2}{\second} - \SI{1}{\second} = \SI{1}{\second}$. En el enunciado también nos decían que $\varepsilon = \SI{1,6}{\volt}$, por lo que:
@@ -1033,5 +1027,41 @@ El signo \textbf{negativo} de la fórmula \ref{INDUCC_LEYFARADAYLENZ} indica que
 	\end{equation}
 
 \end{mybox}
+
+
+
+
+
+\clearpage
+
+\subsection{Resumen de Fórmulas}
+
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{1.5}
+	\setlength{\tabcolsep}{6pt}
+	\setlength{\aboverulesep}{0pt}
+	\setlength{\belowrulesep}{0pt}
+	\renewcommand{\tabularxcolumn}[1]{m{#1}}
+	\rowcolors{2}{gray!10}{white}
+	\begin{tabularx}{\textwidth}{
+			>{\centering\arraybackslash}m{4.5cm}
+			>{\centering\arraybackslash}X
+			>{\centering\arraybackslash}m{3cm}}
+		\toprule
+		\rowcolor{gray!25}
+		\textbf{Magnitud / Concepto} & \textbf{Fórmula} & \textbf{Unidades (SI)} \\
+		\midrule
+		
+		\textsc{Flujo Magnético} & $\displaystyle \phi = \vec{B} \cdot \vec{S} \Longrightarrow \phi = B \cdot S \cdot \cos \varphi$ & \unit{\weber} \\
+		
+		\textsc{Ley de Faraday--Lenz} & $\displaystyle \varepsilon = -\frac{d\phi}{dt}$ & \unit{\volt} \\
+		
+		\bottomrule
+	\end{tabularx}
+	\caption{Formulario de Inducción Electromagnética}
+	\label{INDUCC_TABLAFORMULARIO}
+\end{table}
+
 
 \end{document}

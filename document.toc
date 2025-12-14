@@ -53,3 +53,4 @@
 \contentsline {section}{\numberline {4}Inducción Electromagnética}{23}{section.4}%
 \contentsline {subsection}{\numberline {4.1}El Flujo Magnético}{23}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Ley de Faraday--Lenz}{23}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Resumen de Fórmulas}{25}{subsection.4.3}%
