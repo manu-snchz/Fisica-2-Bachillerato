@@ -1,0 +1,197 @@
+\section{Inducción Electromagnética}
+
+\subsection{El Flujo Magnético}
+
+El \textbf{flujo magnético} ($\phi$) se define, en una \textbf{superficie}, como el número de \textbf{líneas de inducción} que la \textbf{atraviesan}. Este número número de \textbf{líneas por superficie} perpedincular a las mismas indica la intensidad del campo, es decir:
+
+\begin{equation}\label{INDUCC_FLUJO1}
+	\phi = \vec{B} \cdot \vec{S} \Longrightarrow \phi = B \cdot S \cdot \cos \varphi 
+\end{equation}
+
+El flujo magnético se mide en \textbf{Wéber} (\unit{\weber}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.2]{INDUCC_SITUACIONESFLUJO}
+	\caption{Situaciones del Flujo Magnético}
+	\label{INDUCC_SITUACIONESFLUJO}
+\end{figure}
+
+\subsection{Ley de Faraday--Lenz}
+
+La Ley de Faraday--Lenz establece que cuando el \textbf{flujo magnético} que atraviesa un circuito varía, aparece una \textbf{fuerza electromotriz} (\textit{fem}) inducida. Su valor viene dado por:
+
+\begin{equation}\label{INDUCC_LEYFARADAYLENZ}
+\varepsilon = -\frac{d\phi}{dt}
+\end{equation}
+
+El signo \textbf{negativo} de la fórmula \ref{INDUCC_LEYFARADAYLENZ} indica que la \textbf{corriente} inducida \textbf{siempre se opone} al cambio de flujo que la produce (sentido de Lenz). La \textbf{fem} \(\varepsilon\) es la energía por unidad de carga que surge en el circuito debido a esa variación de flujo y se mide en voltios (\unit{\volt}). \textbf{Ejemplo:} Si un imán se acerca a una espira, el flujo magnético aumenta y aparece una corriente cuyo campo se opone a ese acercamiento. Si el imán se aleja, el flujo disminuye y la corriente inducida cambia de sentido para intentar mantener el flujo anterior.
+
+\clearpage
+
+\subsection{La Experiencia de Henry}
+
+Los estudios de Joseph Henry acerca del electromagnetismo fueron de gran importancia para conocer las leyes que rigen este campo de la física. Supongamos un \textbf{hilo} conductor de \textbf{longitud} $\ell$ que se mueve hacia la \textbf{derecha} con \textbf{velocidad constante} $\vec{v}$ en el seno de un campo \textbf{magnético} perpendicular entrante en el plano del hilo, tal y como se indica en la figura \ref{INDUCC_EXPERIENCIAHENRY}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{INDUCC_EXPERIENCIAHENRY}
+	\caption{}
+	\label{INDUCC_EXPERIENCIAHENRY}
+\end{figure}
+
+La $\vec{F_B}$ hace que los \textbf{electrones} se desplacen hacia la parte \textbf{inferior} del conductor($b$ en la figura \ref{INDUCC_EXPERIENCIAHENRY}). Gracias a eso, aparecerá un campo eléctrico que ejerce una \textbf{fuerza} sobre los electrones en \textbf{sentido opuesto} a $\vec{F_B}$. Se produce una situación de \textbf{equilibrio} y ya no hay más separación de cargas.
+
+\begin{equation}
+	\tag{\ref{MAGN_LORENTZ}}
+	\vec{F_B} = \vec{v} \times \vec{B}
+\end{equation}
+
+\begin{equation}
+	\tag{\ref{ELEC_FCAMPOELECTRICO}}
+	\vec{F_E} = q \cdot \vec{E}
+\end{equation}
+
+\begin{equation}\label{INFUCC_EXPERIENCIAHENRY1}
+	\vec{F_B} = \vec{F_E} \Longrightarrow \cancel{q} \vec{v} \times \vec{B} = \cancel{q} \cdot \vec{E} \Longrightarrow \vec{E} = \vec{v} \times \vec{B}
+\end{equation}
+
+\begin{equation}\label{INFUCC_EXPERIENCIAHENRY2}
+	\Delta V = E \cdot \ell = \vec{v} \times \vec{B} \cdot \ell
+\end{equation}
+
+
+\clearpage
+
+\begin{mybox}{Ejercicio Ejemplo}
+	\textbf{Una espira triangular de $\SI{4}{\meter}$ de lado se desplaza a $\SI{2}{\meter\per\second}$ hacia una región donde hay un campo magnético $\vec{B}$ perpendicular al plano de la espira, tal y como se indica en la figura \ref{INDUCC_EJEMPLO1}. En $t = \SI{0}{\second}$ la espira está a $\SI{2}{\meter}$ de la región.}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.1]{INDUCC_EJEMPLO1}
+		\caption{}
+		\label{INDUCC_EJEMPLO1}
+	\end{figure}
+	
+	\textbf{Indica la expresión de la fem inducida en la espira cuando penetra en la región del campo magnético. Calcula el valor del campo si en el instante $t = \SI{2}{\second}$ la fem inducida es $\varepsilon = \SI{1,6}{\volt}$.}
+
+	---
+
+	Podemos calcular primero el flujo magnético que atraviesa la espira:
+
+	\begin{equation}
+		\phi = B \cdot S \cdot \cancelto{1}{\cos \varphi}
+	\end{equation}
+
+	Donde $S$ es el área de la espira y $\varphi$ es el ángulo, en este caso $\varphi = \SI{0}{\degree}$, entre el campo magnético y el plano de la espira. Se puede ver que la superficie es un triángulo rectángulo, por lo que su área es $S = \frac{\ell^2}{2}$. Asimismo, al tratarse de un MRU, podemos sustituir $\ell$ por $v \cdot t$, lo que nos queda:
+
+	\begin{equation}
+		\phi = B \cdot \frac{v^2 t^2}{2}
+	\end{equation}
+
+	Sustituyendo los datos que ya tenemos y derivando para obtener la fem inducida:
+
+	\begin{equation}
+		\phi (t) = B \frac{4t^2}{2} = 2Bt^2  \Longrightarrow \varepsilon = -\frac{d\phi}{dt} = -4Bt
+	\end{equation}
+
+	Sin embargo, en esta ecuación no se está teniendo en cuenta que la espira se encuentra a 2 metros de la región del campo magnético, por lo que el tiempo que usaremos será $t_{\textnormal{desfase}} = \frac{\SI{2}{\meter}}{\SI{2}{\meter\per\second}} = \SI{1}{\second}$. El tiempo que usaremos en la ecueción serán los dos segundos del enunciado menos el segundo de desfase $t = \SI{2}{\second} - \SI{1}{\second} = \SI{1}{\second}$. En el enunciado también nos decían que $\varepsilon = \SI{1,6}{\volt}$, por lo que:
+
+	\begin{equation}
+		\SI{1.6}{\volt} = -4B \cdot \SI{1}{\second} \Longrightarrow B = \frac{\SI{1.6}{\volt}}{4 \cdot \SI{1}{\second}} = \SI{0.4}{\tesla}
+	\end{equation}
+
+\end{mybox}
+
+\subsection{Aplicaciones de la inducción electromagnética}
+
+\subsubsection{Generadores eléctricos}
+
+Un \textbf{generador eléctrico} es un dispositivo \textbf{capaz} de transformar algún tipo de energía en energía \textbf{eléctrica}. Nikola Tesla inventó el generador de \textbf{corriente alterna} o \textbf{alternador}. Modificándolo, se creó el generador de corriente continua llamado \textbf{dinamo}.
+
+\paragraph{Alternador}
+
+Un alternador es un \textbf{generador} de corriente \textbf{alterna}. El sentido en el que circulan las cargas \textbf{cambian periodicamente}. La Ley de Faraday (fórmula \ref{INDUCC_LEYFARADAYLENZ}) nos permite obtener la función de la \textbf{fem} en el alternador con respecto al \textbf{tiempo}:
+
+\begin{equation}
+	\varepsilon = -\frac{d\phi}{dt} = -\frac{d (B\cdot S\cdot \cos (\omega t))}{dt} = \omega \cdot B \cdot S \cdot \sin (\omega t)
+\end{equation}
+
+La \textbf{fem} máxima es $\varepsilon_{\textnormal{máxima}} = \omega \cdot B \cdot S$. Donde $\omega$ es la \textbf{velocidad angular}, con la que se puede calcular la \textbf{frecuencia}: $f = \frac{\omega}{2\pi}$.
+
+\paragraph{Dinamo}
+
+Una dinamo es un \textbf{generador} de corriente \textbf{continua}, denominada así porque \textbf{no cambia} el \textbf{sentido} en que circulan las cargas eléctricas. Se puede obtener \textbf{modificando} el diseño del \textbf{alternador}, utilizando un único anillo partido en dos y conectando a cada una de las mitades una \textbf{escobilla}.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.6]{INDUCC_ALTERNADOR}
+		\caption{Alternador}
+		\label{INDUCC_ALTERNADOR}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.6]{INDUCC_DINAMO}
+		\caption{Dinamo}
+		\label{INDUCC_DINAMO}
+	\end{subfigure}
+	\caption{Gráficas de fem inducida en los distintos tipos de generadores}
+	\label{INDUCC_GENERADORES}
+\end{figure}
+
+Tanto en \ref{INDUCC_ALTERNADOR} como en \ref{INDUCC_DINAMO}, el generador ha dado una \textbf{vuelta entera} ($2\pi \unit{\radian}$), es decir, ha pasado \textbf{dos veces} por \SI{0}{\volt}.
+
+\subsubsection{Inducción Mutua y Autoinducción}
+
+\paragraph{Inducción Mutua}
+
+Se produce una \textbf{inducción mutua} cuando dos circuitos son capaces de \textbf{inducir} corriente el \textbf{uno} en el \textbf{otro}. 
+
+
+
+\begin{mybox}{Conceptos Clave}
+	\begin{itemize}
+		\item La fuerza electromotriz (fem, \(\varepsilon\)) \textbf{no} es una \textbf{fuerza}, sino la \textbf{energía} por unidad de carga. En el SI, la fem se mide en \textbf{voltios} (\unit{\volt}).
+		\item Un flujo magnético muy intenso \textbf{no} garantiza una \textit{fem} inducida. Solo existe inducción si hay una \textbf{variación temporal} del flujo ($ \frac{d\phi}{dt} \neq 0$). Si el flujo es constante, la fem es nula.
+		\item El vector superficie \(\vec{S}\) es \textbf{perpendicular} al plano de la espira. Por tanto, si el \textbf{campo} fuera \textbf{paralelo} al plano de la espira, el \textbf{ángulo} con el vector superficie es \(\SI{90}{\degree}\) y por tanto el flujo magnético es \(\phi = \SI{0}{\weber}\).
+		\item Recuerda la \textbf{Ley de Ohm} para obtener con la \textit{fem} la \textbf{corriente} inducida: \(\varepsilon = I \cdot R\).
+	\end{itemize}
+\end{mybox}
+
+
+\clearpage
+
+\subsection{Resumen de Fórmulas}
+
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{1.5}
+	\setlength{\tabcolsep}{6pt}
+	\setlength{\aboverulesep}{0pt}
+	\setlength{\belowrulesep}{0pt}
+	\renewcommand{\tabularxcolumn}[1]{m{#1}}
+	\rowcolors{2}{gray!10}{white}
+	\begin{tabularx}{\textwidth}{
+			>{\centering\arraybackslash}m{4.5cm}
+			>{\centering\arraybackslash}X
+			>{\centering\arraybackslash}m{3cm}}
+		\toprule
+		\rowcolor{gray!25}
+		\textbf{Magnitud / Concepto} & \textbf{Fórmula} & \textbf{Unidades (SI)} \\
+		\midrule
+		
+		\textsc{Flujo Magnético} & $\displaystyle \phi = \vec{B} \cdot \vec{S} \Longrightarrow \phi = B \cdot S \cdot \cos \varphi$ & \unit{\weber} \\
+		
+		\textsc{Ley de Faraday--Lenz} & $\displaystyle \varepsilon = -\frac{d\phi}{dt}$ & \unit{\volt} \\
+
+		\textsc{Experiencia de Henry} & $\displaystyle \Delta V = v \cdot B \cdot \ell$ & \unit{\volt} \\
+
+		\textsc{Ley de Ohm} & $\displaystyle I = \frac{\varepsilon}{R}$ & \unit{\ampere} \\
+		
+		\bottomrule
+	\end{tabularx}
+	\caption{Formulario de Inducción Electromagnética}
+	\label{INDUCC_TABLAFORMULARIO}
+\end{table}

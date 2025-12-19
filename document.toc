@@ -53,4 +53,11 @@
 \contentsline {section}{\numberline {4}Inducción Electromagnética}{23}{section.4}%
 \contentsline {subsection}{\numberline {4.1}El Flujo Magnético}{23}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Ley de Faraday--Lenz}{23}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Resumen de Fórmulas}{25}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}La Experiencia de Henry}{24}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Aplicaciones de la inducción electromagnética}{26}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Generadores eléctricos}{26}{subsubsection.4.4.1}%
+\contentsline {paragraph}{\numberline {4.4.1.1}Alternador}{26}{paragraph.4.4.1.1}%
+\contentsline {paragraph}{\numberline {4.4.1.2}Dinamo}{26}{paragraph.4.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.4.2}Inducción Mutua y Autoinducción}{27}{subsubsection.4.4.2}%
+\contentsline {paragraph}{\numberline {4.4.2.1}Inducción Mutua}{27}{paragraph.4.4.2.1}%
+\contentsline {subsection}{\numberline {4.5}Resumen de Fórmulas}{28}{subsection.4.5}%

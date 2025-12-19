@@ -69,6 +69,14 @@
 
 \pgfplotsset{compat=1.18}
 
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
 
 \begin{document}
 
@@ -86,19 +94,19 @@
 
 % -------------- CAMPO GRAVITATORIO --------------
 
-\include{SECTIONS/GRAV}
+\include{SECTIONS/1 - GRAV}
 
 % -------------- CAMPO ELÉCTRICO --------------
 
-\include{SECTIONS/ELECT}
+\include{SECTIONS/2 - ELECT}
 
 % -------------- CAMPO MAGNÉTICO --------------
 
-\include{SECTIONS/MAGN}
+\include{SECTIONS/3 - MAGN}
 
 % -------------- INDUCCIÓN ELECTROMAGNÉTICA --------------
 
-\include{SECTIONS/INDUCC}
+\include{SECTIONS/4 - INDUCC}
 
 
 

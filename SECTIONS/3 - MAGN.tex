@@ -1,0 +1,365 @@
+\section{Campo Magnético}
+
+El campo \textbf{magnético} es la \textbf{perturbación} que genera un \textbf{imán} o \textbf{cargas} en \textbf{movimiento} (corrientes eléctricas). El campo \textbf{magnético}, a diferencia de los campos gravitatorios y eléctricos, es un campo \textbf{no conservativo}, ya que el trabajo \textbf{sí} depende de la \textbf{trayectoria}.
+
+La \textbf{intensidad} de campo magnético $B$ es una magnitud \textbf{vectorial}, cuya unidad en el \textbf{Sistema Internacional} es el \textbf{Tesla} (\unit{\tesla}). El \textbf{tesla} es una unidad muy \textbf{grande}. Por ejemplo, el campo magnético terrestre es del orden de \SI{e-5}{\tesla}. Por eso a veces se usa una \textbf{unidad menor}, denominada \textbf{Gauss} (G): \SI{1}{G} = \SI{e-4}{\tesla}.
+
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.3]{MAGN_LINEASHILO}
+		\caption{\textbf{Hilo}}
+		\label{MAGN_LINEASHILO}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.2]{MAGN_LINEASIMAN}
+		\caption{\textbf{Imán}}
+		\label{MAGN_LINEASIMAN}
+	\end{subfigure}
+	\caption{Líneas de Campo Creados por un Hilo y por un Imán}
+	\label{MAGN_LINEASDECAMPO}
+\end{figure}
+
+\subsection{Ley de Lorentz}
+
+Cuando un cuerpo cargado penetra con una \textbf{velocidad} $\vec{v}$ en una región del espacio en la que existe un \textbf{campo magnético} $\vec{B}$, se ve sometido a una \textbf{fuerza magnética} $\vec{F_m}$:
+
+\begin{equation}\label{MAGN_LORENTZ}
+	\vec{F_m} = q\cdot \vec{v}\times \vec{B} \Longrightarrow F_m = \left| q \right|\cdot v\cdot B\sen{\alpha}
+\end{equation}
+
+Siendo $\alpha$ el \textbf{ángulo} que forman $v$ y $B$. La unidad de $B$ son los Teslas (\unit{\tesla}), que son: \unit{\newton\per\coulomb\per\meter\second}.
+
+\begin{enumerate}
+	\item Si $\vec{v}$ y $\vec{B}$ son \textbf{\textsc{paralelos}}: $\alpha = 0^\circ \Longrightarrow F_m = 0$, por lo tanto, la carga describirá un \textbf{MRU}.
+	
+	\item Si $\vec{v}$ y $\vec{B}$ son \textbf{\textsc{perpendiculares}}, la \textbf{fuerza} será \textbf{máxima} y la carga describirá un \textbf{MCU}.
+	
+	\item En el \textbf{resto} de casos, la carga describirá un \textbf{movimiento helicoidal} (véase \cref{MAGN_MOVIMIENTO}).
+\end{enumerate}
+
+\subsection{Características del Movimiento}
+
+La partícula que penetra con \textbf{velocidad perpendicular} al campo magnético. El \textbf{radio} de la circunferencia $r$ que describe una partícula cargada \textbf{depende} de su \textbf{velocidad}. El \textbf{periodo} ($T$) del movimiento circular lo podemos \textbf{calcular} también.
+
+Para las partículas que penetran con un \textbf{ángulo} $\alpha$ \textbf{cualquiera} con el campo magnético se pueden \textbf{descomponer} en \textbf{ejes} \textbf{perpendiculares} y \textbf{paralelos} al campo magnético.
+
+El \textbf{paso} ($d$ en la figura \ref{MAGN_MOVIMIENTO}) de la hélice en el caso en el que la partícula penetra con un \textbf{ángulo} $\alpha$ \textbf{cualquiera} con el campo magnético es la distancia que \textbf{recorrería} al girar una vuelta completa. Se calcula como la \textbf{velocidad paralela} al campo magnético por su \textbf{periodo}: $d = v_{\parallel}\cdot T$. 
+
+\begin{equation}\label{MAGN_RADIOMOVIMIENTO}
+	r = \frac{m\cdot v}{q\cdot B}
+\end{equation}
+
+\begin{equation}\label{MAGN_PERIODOMOVIMIENTO}
+	T = \frac{2\pi r}{v} = \frac{2\pi m}{qB}
+\end{equation}
+
+\begin{equation}\label{MAGN_DESCOMPOSICIÓN}
+	\vec{v} = \vec{v}_{\perp} + \vec{v}_{\parallel} = v_{\perp}\cdot \vec{u_{\perp}} + v_{\parallel}\cdot \vec{u_{\parallel}}
+\end{equation}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{MAGN_MOVIMIENTO}
+	\caption{Movimiento Descrito por una Carga con una Velocidad bajo un Ángulo}
+	\label{MAGN_MOVIMIENTO}
+\end{figure}
+
+\subsection{Cálculo de un Producto Vectorial} \label{MAGN_EPIGRAFEPRODUCTOVECTORIAL}
+
+Para obtener el \textbf{vector fuerza} magnética $\vec{F}$ a partir de las \textbf{componentes} de la \textbf{velocidad} $\vec{v} = v_x\vec{i} + v_y\vec{j} + v_z\vec{k}$ y del \textbf{campo magnético} $\vec{B} = B_x\vec{i} + B_y\vec{j} + B_z\vec{k}$, utilizamos la regla del determinante:
+
+\begin{equation}\label{MAGN_PRODUCTOVECTORIAL}
+	\vec{F} = q (\vec{v} \times \vec{B}) = q 
+	\begin{vmatrix}
+		\vec{i} & \vec{j} & \vec{k} \\
+		v_x & v_y & v_z \\
+		B_x & B_y & B_z
+	\end{vmatrix}
+\end{equation}
+
+Desarrollando el determinante:
+
+\begin{equation}\label{MAGN_PRODUCTOVECTORIALDEVELOPADO}
+	\vec{F} = q \left[ (v_y B_z - v_z B_y)\vec{i} - (v_x B_z - v_z B_x)\vec{j} + (v_x B_y - v_y B_x)\vec{k} \right]
+\end{equation}
+
+También se puede usar la regla de la mano derecha o del sacacorchos:
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.03]{MAGN_MANODERECHA.png}
+		\caption{Regla de la Mano Derecha}
+		\label{MAGN_MANODERECHA}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=1]{MAGN_SACACORCHOS.png}
+		\caption{Regla del Sacacorchos}
+		\label{MAGN_SACACORCHOS}
+	\end{subfigure}
+	\caption{Reglas de la Mano Derecha y del Sacacorchos}
+	\label{MAGN_MANODERECHASACACORCHOS}
+\end{figure}
+
+La regla de la \textbf{mano derecha} (o del \textbf{sacacorchos}) determina \textbf{sentidos vectoriales}. Para el sacacorchos, giramos de $\vec{v}$ a $\vec{B}$. Para la mano derecha, véase la figura \ref{MAGN_MANODERECHA}. 
+
+\subsection{El Selector de Velocidades}
+
+El selector de velocidades utiliza campos \textbf{eléctrico} y \textbf{magnético} cruzados. Si las \textbf{partículas cargadas} entran con cierta \textbf{velocidad}, las fuerzas se \textbf{cancelan}. Esto permite que sigan una \textbf{trayectoria rectilínea} y \textbf{atraviesen} el dispositivo \textbf{sin desviarse}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.2]{MAGN_SELECTORDEVELOCIDADES}
+	\caption{Selector de Velocidades}
+	\label{MAGN_SELECTORDEVELOCIDADES}
+\end{figure}
+
+Para seleccionar las partículas que tienen una \textbf{cierta velocidad}, la fuerza eléctrica y magnética han de ser \textbf{iguales}:
+
+\begin{equation}\label{MAGN_SELECTORFORMULAS}
+	\vec{F_E} = \vec{F_B} \Longrightarrow E = vB \Longrightarrow v = \frac{E}{B}
+\end{equation}
+
+\subsection{Espectrómetro de Masas}
+
+Es un \textbf{dispositivo} que empleado para \textbf{separar partículas} cargadas que poseen \textbf{distinta relación} ($\frac{\textnormal{carga}}{\textnormal{masa}}$). El espectrómetro de masas consta básicamente de un \textbf{selector de velocidades} (que permite seleccionar las partículas con una determinada velocidad) seguido de una \textbf{zona} en la que se establece un \textbf{campo magnético}. En esta zona, la partícula \textbf{cargada} describe una trayectoria \textbf{circular}, y un a placa \textbf{fotográfica} recoge el \textbf{impacto} de las partículas después de \textbf{describir una semicircunferencia}. De esta forma podemos medir el \textbf{radio} de curvatura y calcular la relación $\frac{\textnormal{carga}}{\textnormal{masa}}$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{MAGN_ESPECTROMETRO}
+	\caption{Espectrómetro de Masas}
+	\label{MAGN_ESPECTROMETRO}
+\end{figure}
+
+\subsection{Ciclotrón}
+
+Un ciclotrón es un \textbf{acelerador de partículas} cargadas que después suelen ser utilizadas para producir \textbf{reacciones nucleares} o para \textbf{obtener información} sobre otros núcleos.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.45]{MAGN_CICLOTRON}
+	\caption{Ciclotrón}
+	\label{MAGN_CICLOTRON}
+\end{figure}
+
+\begin{enumerate}
+	\item Un ciclotrón tiene dos \textbf{partes} llamadas ``\textit{Des}'' (por su forma). Son recipientes \textbf{semicirculares} al \textbf{vacío}, colocados \textbf{perpendicularmente} a un \textbf{campo} $B$. Las partículas describen \textbf{trayectorias} circulares de radio \textbf{creciente}. Las dos ``$Ds$'', $D_1$ y $D_2$, están separadas cierta \textbf{distancia}.
+
+	\item En \textbf{ese espacio} se \textbf{acelera} la partícula mediante una \textbf{diferencia de potencial}, \textbf{aumentando} su radio, hasta que alcanza un \textbf{radio máximo} denominado \textbf{radio de extracción}.
+
+	\item El \textbf{periodo} es \textbf{independiente} de la velocidad de la partícula y de su \textbf{radio}, por lo que será \textbf{constante} en el \textbf{ciclotrón}. Tras una serie de \textbf{vueltas}, la partícula \textbf{alcanzará} una energía \textbf{cinética} máxima con la que saldrá del \textbf{ciclotrón}.
+\end{enumerate}
+
+\begin{equation}\label{MAGN_CICLOTRONPERIODO}
+	\begin{rcases}
+		\begin{aligned}
+			\left| q \right|Bv = m\frac{v^2}{r} \Longrightarrow \frac{r}{v} = \frac{m}{\left| q \right|B}
+			\\
+			T=\frac{2\pi r}{v}
+		\end{aligned}
+	\end{rcases}
+T = \frac{2\pi m}{\left| q \right|B}
+\end{equation}
+
+
+La \textbf{energía cinética máxima} que alcanza la partícula depende del radio máximo del ciclotrón ($R$) y del campo magnético ($B$):
+
+\begin{equation}\label{MAGN_ECINETICAMAX}
+	E_{\textnormal{c,max}} = \frac{q^2 B^2 R^2}{2m}
+\end{equation}
+
+\clearpage
+
+\subsection{Efecto de un Campo Magnético sobre un Hilo de Corriente}
+
+Si un \textbf{hilo} que transporta una \textbf{corriente eléctrica} se encuentra en un \textbf{campo magnético}, experimenta una \textbf{fuerza magnética} que podemos deducir a partir de la Ley de Lorentz. Recordemos que la \textbf{intensidad} se define como $I = \frac{dq}{dt}$. Sustituyendo en la expresión diferencial de la fuerza:
+
+\begin{equation}
+d\vec{F}_B = dq \cdot \vec{v} \times \vec{B}
+\quad\Longrightarrow\quad
+d\vec{F}_B = I \cdot dt \cdot \vec{v} \times \vec{B}
+\end{equation}
+
+Como $\vec{v} \cdot dt = d\vec{\ell}$, siendo $d\vec{\ell}$ un elemento de \textbf{longitud} en la dirección de la corriente:
+
+\begin{equation}
+d\vec{F}_B = I \cdot d\vec{\ell} \times \vec{B}
+\end{equation}
+
+\begin{equation}\label{MAGN_FUERZAHILOFORMULA}
+\vec{F}_B = I \cdot \vec{\ell} \times \vec{B}
+\end{equation}
+
+Y su módulo queda:
+
+\begin{equation}\label{MAGN_FUERZAHILOMODULO}
+F = I \cdot \ell \cdot B \cdot \sin\alpha
+\end{equation}
+
+En esta fórmula, $\vec{\ell}$ es un vector cuya \textbf{dirección} y \textbf{sentido} coinciden con los de la corriente, y cuyo módulo es la longitud del tramo considerado del hilo. Además, la \textbf{dirección} y \textbf{sentido} de la fuerza pueden deducirse mediante el cálculo del producto vectorial o la regla de la \textbf{mano derecha} (epígrafe \ref{MAGN_EPIGRAFEPRODUCTOVECTORIAL}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{MAGN_FUERZAHILO}
+	\caption{Fuerzas que actúan sobre un hilo de corriente}
+	\label{MAGN_FUERZAHILO}
+\end{figure}
+
+\clearpage
+
+\subsection{Campo Magnético creado por un Hilo de Corriente}
+
+Un \textbf{hilo} de corriente por el que pasa una \textbf{intensidad} $I$ crea un \textbf{campo magnético} en sus \textbf{proximidades}. Para un punto $P$ cuya distancia más corta al hilo sea $x$, el módulo de la \textbf{intensidad de campo} es:
+
+\begin{equation}\label{MAGN_CAMPOCREADOHILOFORMULA}
+	B = \frac{\mu}{2\pi} \cdot \frac{I}{x}
+\end{equation}
+
+Las líneas de campo son circunferencias \textbf{centradas} en el hilo, que se encuentran en el plano \textbf{perpendicular} al \textbf{hilo} y su sentido viene dado por la \textbf{regla del sacacorchos} (figura \ref{MAGN_SACACORCHOS}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{MAGN_CAMPOCREADOHILO}
+	\caption{Campo magnético creado por un hilo de corriente}
+	\label{MAGN_CAMPOCREADOHILO}
+\end{figure}
+
+\subsection{Campo creado por una espira circular}
+
+El campo creado por una espira \textbf{en su centro} es un vector con estas características:
+
+\begin{enumerate}
+	\item \textsc{\textbf{Módulo}}: $B = \frac{\mu}{2} \cdot \frac{I}{R}$
+	\item \textsc{\textbf{Dirección}}: \textbf{perpendicular} al plano de la espira.
+	\item \textsc{\textbf{Sentido}}: depende del sentido de giro de la \textbf{corriente}. 
+\end{enumerate}
+
+
+\clearpage
+
+\subsection{Acciones entre corrientes}
+
+Si circulan \textbf{corrientes} por \textbf{varios hilos paralelos}, se dan \textbf{interacciones magnéticas} entre ellas. Una situación en la que esto puede ocurrir es en los cables que transportan corriente en la red eléctrica. Supongamos que dos hilos paralelos, de longitud $L$ y separados una distancia $d$. Cada uno de ellos creará un \textbf{campo magnético} $B$ que podemos calcular:
+
+Campo que crea la \textbf{corriente 1} sobre \textbf{2}:
+
+\begin{equation}\label{MAGN_CAMPOCREADOHILO1}
+	B_{1} = \frac{\mu}{2\pi} \cdot \frac{I_1}{d}
+\end{equation}
+
+Fuerza que sufre la \textbf{corriente 2}:
+
+\begin{equation}\label{MAGN_FUERZAHILO2}
+	F_{12} = I_2 \cdot \ell \cdot B_1 
+\end{equation}
+
+Sustituyendo la fórmula \textbf{\ref{MAGN_CAMPOCREADOHILO1}} en la fórmula \textbf{\ref{MAGN_FUERZAHILO2}}:
+
+\begin{equation}
+	F_{12} = I_2 \cdot \ell \cdot \frac{\mu}{2\pi} \cdot \frac{I_1}{d}
+\end{equation}
+
+La fuerza se suele medir por \textbf{unidad de longitud} ($\frac{F}{\ell}$).
+
+\begin{equation}\label{MAGN_FUERZAPORUNIDADA}
+	\frac{F_{12}}{\ell} = \frac{\mu}{2\pi} \cdot \frac{I_1 I_2}{d}
+\end{equation}
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.25]{MAGN_HILOSINTERACCION.png}
+		\caption{Mismo Sentido}
+		\label{MAGN_MISMOSSENTIDO}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[scale=0.25]{MAGN_HILOSINTERACCION2.png}
+		\caption{Sentido Contrario}
+		\label{MAGN_SENTIDONOTRAS}
+	\end{subfigure}
+	\caption{Interacciones entre hilos de corriente}
+	\label{MAGN_HILOSINTERACCION}
+\end{figure}
+
+\subsection{Definición de Amperio}
+
+Hasta el año 2019, el \textbf{amperio} (la intensidad de la corriente), se definía sobre la base de la \textbf{fuerza} de interacción magnética entre dos \textbf{conductores rectilíneos paralelos}. Si $I_1 = I_2 = \SI{1}\ampere$ y $d = \SI{1}\metre$, dado que $\mu = 4 \pi \times 10^{-7} \unit{\newton\per\ampere\squared}$:
+
+\begin{equation}
+	\frac{F_{12}}{\ell} = \frac{\mu}{2\pi} \cdot \frac{1 \unit{\ampere} \cdot 1 \unit{\ampere}}{1 \unit{\metre}} = 2 \cdot 10^{-7} \unit{\newton\per\metre}
+\end{equation}
+
+Así, un amperio internacional o Ampère ($A$) era la \textbf{intensidad} de corriente eléctrica que debía circular por dos conductores \textbf{rectilíneos, paralelos e indefinidos} para que, separados por una distancia de $\SI{1}{\metre}$, ejerciera una \textbf{fuerza} entre ellos de $\SI{2e-7}{\newton\per\metre}$ \textbf{por} cada \textbf{metro} de conductor. A partir de 2019, se definió el amperio a partir de la carga elemental del electrón.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{MAGN_AMPERIO.png}
+	\caption{Definición del amperio hasta 2019}
+	\label{MAGN_AMPERIO}
+\end{figure}
+
+
+
+\begin{mybox}{Conceptos Clave: Campo Magnético}
+	\begin{itemize}
+		\item \textbf{Trabajo Nulo:} La fuerza magnética \textbf{nunca} realiza trabajo ($W=0$) porque es siempre perpendicular a la velocidad.
+		\item \textbf{Energía Cinética:} Como no hay trabajo, la fuerza magnética \textbf{no cambia} la rapidez (módulo de la velocidad), solo curva la trayectoria. $E_c = \textnormal{cte}$.
+	\end{itemize}
+\end{mybox}
+
+\clearpage
+
+\subsection{Resumen de Fórmulas}
+
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{1.5}
+	\setlength{\tabcolsep}{6pt}
+	\setlength{\aboverulesep}{0pt}
+	\setlength{\belowrulesep}{0pt}
+	\renewcommand{\tabularxcolumn}[1]{m{#1}}
+	\rowcolors{2}{gray!10}{white}
+	\begin{tabularx}{\textwidth}{
+			>{\centering\arraybackslash}m{4.5cm}
+			>{\centering\arraybackslash}X
+			>{\centering\arraybackslash}m{3cm}}
+		\toprule
+		\rowcolor{gray!25}
+		\textbf{Magnitud / Concepto} & \textbf{Fórmula} & \textbf{Unidades (SI)} \\
+		\midrule
+		
+		\textsc{Ley de Lorentz (Vectorial)} & $\displaystyle \vec{F}_m = q(\vec{v}\times\vec{B})$ & \unit{\newton} \\
+		
+		\textsc{Ley de Lorentz (Módulo)} & $\displaystyle F_m = |q|vB\sin\alpha$ & \unit{\newton} \\
+		
+		\textsc{Radio de la Trayectoria} & $\displaystyle r = \frac{mv}{|q|B}$ & \unit{\meter} \\
+		
+		\textsc{Periodo (Partícula / Ciclotrón)} & $\displaystyle T = \frac{2\pi m}{|q|B}$ & \unit{\second} \\
+		
+		\textsc{Frecuencia (Ciclotrón)} & $\displaystyle f = \frac{|q|B}{2\pi m}$ & \unit{\hertz} o \unit{\per\second} \\
+				
+		\textsc{Paso de la Hélice} & $\displaystyle p = v_{\parallel} \cdot T$ & \unit{\meter} \\
+		
+		\textsc{Selector de Velocidades} & $\displaystyle v = \frac{E}{B}$ & \unit{\meter\per\second} \\
+				
+		\textsc{Energía Cinética Máxima (Ciclotrón)} & $\displaystyle E_{\textnormal{c,max}} = \frac{q^2 B^2 R^2}{2m}$ & \unit{\joule} \\
+
+		\textsc{Fuerza sobre un hilo de corriente} & $\displaystyle \vec{F} = I\vec{\ell} \times \vec{B}$ & \unit{\newton} \\
+
+		\textsc{Campo magnético creado por un hilo de corriente} & $\displaystyle B = \frac{\mu}{2\pi} \cdot \frac{I}{x}$ & \unit{\tesla} \\
+
+		\textsc{Fuerza entre corrientes} & $\displaystyle \frac{F_{12}}{\ell} = \frac{\mu}{2\pi} \cdot \frac{I_1 I_2}{d}$ & \unit{\newton\per\meter} \\
+		
+		\bottomrule
+	\end{tabularx}
+	\caption{Formulario de Campo Magnético}
+	\label{MAGN_TABLAFORMULARIO}
+\end{table}
