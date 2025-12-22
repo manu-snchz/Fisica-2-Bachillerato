@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.12)  19 DEC 2025 14:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.12)  22 DEC 2025 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1095,12 +1095,12 @@ l.91 \clearpage
 \openout2 = `"SECTIONS/1 - GRAV.aux"'.
 
  (/Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/1 - GRAV.tex
-<FIGURES/GRAV_1LEYKEPLER.jpg, id=356, 823.075pt x 528.97626pt>
+<FIGURES/GRAV_1LEYKEPLER.jpg, id=351, 823.075pt x 528.97626pt>
 File: FIGURES/GRAV_1LEYKEPLER.jpg Graphic file (type jpg)
 <use FIGURES/GRAV_1LEYKEPLER.jpg>
 Package pdftex.def Info: FIGURES/GRAV_1LEYKEPLER.jpg  used on input line 13.
 (pdftex.def)             Requested size: 164.61208pt x 105.79337pt.
-<FIGURES/GRAV_2LEYKEPLER.jpeg, id=357, 471.7625pt x 328.22626pt>
+<FIGURES/GRAV_2LEYKEPLER.jpeg, id=352, 471.7625pt x 328.22626pt>
 File: FIGURES/GRAV_2LEYKEPLER.jpeg Graphic file (type jpg)
 <use FIGURES/GRAV_2LEYKEPLER.jpeg>
 Package pdftex.def Info: FIGURES/GRAV_2LEYKEPLER.jpeg  used on input line 30.
@@ -1118,7 +1118,7 @@ l.39 \begin{equation}
  </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/GRAV_1LEYKEPLER.jpg> </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/GRAV_2LEYKEPLER.jpeg>]
 
 [2]
-<FIGURES/GRAV_CAMPOGRAV.png, id=380, 169.19398pt x 61.39325pt>
+<FIGURES/GRAV_CAMPOGRAV.png, id=375, 169.19398pt x 61.39325pt>
 File: FIGURES/GRAV_CAMPOGRAV.png Graphic file (type png)
 <use FIGURES/GRAV_CAMPOGRAV.png>
 Package pdftex.def Info: FIGURES/GRAV_CAMPOGRAV.png  used on input line 123.
@@ -1137,7 +1137,7 @@ Package pdftex.def Info: FIGURES/GRAV_CAMPOGRAV.png  used on input line 123.
 \openout2 = `"SECTIONS/2 - ELECT.aux"'.
 
  (/Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/2 - ELECT.tex
-<FIGURES/ELEC_LINEAS.jpeg, id=433, 501.875pt x 246.9225pt>
+<FIGURES/ELEC_LINEAS.jpeg, id=428, 501.875pt x 246.9225pt>
 File: FIGURES/ELEC_LINEAS.jpeg Graphic file (type jpg)
 <use FIGURES/ELEC_LINEAS.jpeg>
 Package pdftex.def Info: FIGURES/ELEC_LINEAS.jpeg  used on input line 29.
@@ -1151,17 +1151,17 @@ Package pdftex.def Info: FIGURES/ELEC_LINEAS.jpeg  used on input line 29.
  </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/ELEC_LINEAS.jpeg>]
 
 [9]
-<FIGURES/ELEC_LINEASCAMPOSUNIFORMES.png, id=453, 1259.70625pt x 670.505pt>
+<FIGURES/ELEC_LINEASCAMPOSUNIFORMES.png, id=448, 1259.70625pt x 670.505pt>
 File: FIGURES/ELEC_LINEASCAMPOSUNIFORMES.png Graphic file (type png)
 <use FIGURES/ELEC_LINEASCAMPOSUNIFORMES.png>
 Package pdftex.def Info: FIGURES/ELEC_LINEASCAMPOSUNIFORMES.png  used on input line 91.
 (pdftex.def)             Requested size: 188.94778pt x 100.57141pt.
-<FIGURES/ELEC_CAMPOSLAMINASINFINITAS.png, id=455, 1253.68375pt x 1169.36874pt>
+<FIGURES/ELEC_CAMPOSLAMINASINFINITAS.png, id=450, 1253.68375pt x 1169.36874pt>
 File: FIGURES/ELEC_CAMPOSLAMINASINFINITAS.png Graphic file (type png)
 <use FIGURES/ELEC_CAMPOSLAMINASINFINITAS.png>
 Package pdftex.def Info: FIGURES/ELEC_CAMPOSLAMINASINFINITAS.png  used on input line 124.
 (pdftex.def)             Requested size: 62.68785pt x 58.47186pt.
-<FIGURES/ELEC_CAMPOSHILOINFINITO.png, id=456, 302.12875pt x 491.8375pt>
+<FIGURES/ELEC_CAMPOSHILOINFINITO.png, id=451, 302.12875pt x 491.8375pt>
 File: FIGURES/ELEC_CAMPOSHILOINFINITO.png Graphic file (type png)
 <use FIGURES/ELEC_CAMPOSHILOINFINITO.png>
 Package pdftex.def Info: FIGURES/ELEC_CAMPOSHILOINFINITO.png  used on input line 141.
@@ -1180,12 +1180,12 @@ Package pdftex.def Info: FIGURES/ELEC_CAMPOSHILOINFINITO.png  used on input line
 \openout2 = `"SECTIONS/3 - MAGN.aux"'.
 
  (/Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/3 - MAGN.tex
-<FIGURES/MAGN_LINEASHILO.png, id=483, 408.52625pt x 303.1325pt>
+<FIGURES/MAGN_LINEASHILO.png, id=478, 408.52625pt x 303.1325pt>
 File: FIGURES/MAGN_LINEASHILO.png Graphic file (type png)
 <use FIGURES/MAGN_LINEASHILO.png>
 Package pdftex.def Info: FIGURES/MAGN_LINEASHILO.png  used on input line 12.
 (pdftex.def)             Requested size: 122.55882pt x 90.94044pt.
-<FIGURES/MAGN_LINEASIMAN.jpg, id=484, 602.25pt x 401.5pt>
+<FIGURES/MAGN_LINEASIMAN.jpg, id=479, 602.25pt x 401.5pt>
 File: FIGURES/MAGN_LINEASIMAN.jpg Graphic file (type jpg)
 <use FIGURES/MAGN_LINEASIMAN.jpg>
 Package pdftex.def Info: FIGURES/MAGN_LINEASIMAN.jpg  used on input line 18.
@@ -1197,7 +1197,7 @@ Package pdftex.def Info: FIGURES/MAGN_LINEASIMAN.jpg  used on input line 18.
 
 
  </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_LINEASHILO.png> </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_LINEASIMAN.jpg>]
-<FIGURES/MAGN_MOVIMIENTO.png, id=500, 408.17282pt x 246.32874pt>
+<FIGURES/MAGN_MOVIMIENTO.png, id=495, 408.17282pt x 246.32874pt>
 File: FIGURES/MAGN_MOVIMIENTO.png Graphic file (type png)
 <use FIGURES/MAGN_MOVIMIENTO.png>
 Package pdftex.def Info: FIGURES/MAGN_MOVIMIENTO.png  used on input line 66.
@@ -1205,22 +1205,22 @@ Package pdftex.def Info: FIGURES/MAGN_MOVIMIENTO.png  used on input line 66.
 
 
 [14 </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_MOVIMIENTO.png>]
-<FIGURES/MAGN_MANODERECHA.png, id=509, 2411.0075pt x 2581.645pt>
+<FIGURES/MAGN_MANODERECHA.png, id=504, 2411.0075pt x 2581.645pt>
 File: FIGURES/MAGN_MANODERECHA.png Graphic file (type png)
 <use FIGURES/MAGN_MANODERECHA.png>
 Package pdftex.def Info: FIGURES/MAGN_MANODERECHA.png  used on input line 96.
 (pdftex.def)             Requested size: 72.3271pt x 77.446pt.
-<FIGURES/MAGN_SACACORCHOS.png, id=510, 102.1416pt x 98.5281pt>
+<FIGURES/MAGN_SACACORCHOS.png, id=505, 102.1416pt x 98.5281pt>
 File: FIGURES/MAGN_SACACORCHOS.png Graphic file (type png)
 <use FIGURES/MAGN_SACACORCHOS.png>
 Package pdftex.def Info: FIGURES/MAGN_SACACORCHOS.png  used on input line 102.
 (pdftex.def)             Requested size: 102.14134pt x 98.52785pt.
-<FIGURES/MAGN_SELECTORDEVELOCIDADES.png, id=512, 837.1275pt x 595.22375pt>
+<FIGURES/MAGN_SELECTORDEVELOCIDADES.png, id=507, 837.1275pt x 595.22375pt>
 File: FIGURES/MAGN_SELECTORDEVELOCIDADES.png Graphic file (type png)
 <use FIGURES/MAGN_SELECTORDEVELOCIDADES.png>
 Package pdftex.def Info: FIGURES/MAGN_SELECTORDEVELOCIDADES.png  used on input line 118.
 (pdftex.def)             Requested size: 167.42253pt x 119.04263pt.
-<FIGURES/MAGN_ESPECTROMETRO.png, id=513, 501.875pt x 308.15125pt>
+<FIGURES/MAGN_ESPECTROMETRO.png, id=508, 501.875pt x 308.15125pt>
 File: FIGURES/MAGN_ESPECTROMETRO.png Graphic file (type png)
 <use FIGURES/MAGN_ESPECTROMETRO.png>
 Package pdftex.def Info: FIGURES/MAGN_ESPECTROMETRO.png  used on input line 135.
@@ -1228,7 +1228,7 @@ Package pdftex.def Info: FIGURES/MAGN_ESPECTROMETRO.png  used on input line 135.
 
 
 [15 </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_MANODERECHA.png> </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_SACACORCHOS.png> </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_SELECTORDEVELOCIDADES.png>]
-<FIGURES/MAGN_CICLOTRON.png, id=525, 311.1625pt x 298.11375pt>
+<FIGURES/MAGN_CICLOTRON.png, id=520, 311.1625pt x 298.11375pt>
 File: FIGURES/MAGN_CICLOTRON.png Graphic file (type png)
 <use FIGURES/MAGN_CICLOTRON.png>
 Package pdftex.def Info: FIGURES/MAGN_CICLOTRON.png  used on input line 146.
@@ -1238,7 +1238,7 @@ Package pdftex.def Info: FIGURES/MAGN_CICLOTRON.png  used on input line 146.
 [16 </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_ESPECTROMETRO.png> </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_CICLOTRON.png>]
 
 [17]
-<FIGURES/MAGN_FUERZAHILO.png, id=545, 351.3125pt x 188.705pt>
+<FIGURES/MAGN_FUERZAHILO.png, id=540, 351.3125pt x 188.705pt>
 File: FIGURES/MAGN_FUERZAHILO.png Graphic file (type png)
 <use FIGURES/MAGN_FUERZAHILO.png>
 Package pdftex.def Info: FIGURES/MAGN_FUERZAHILO.png  used on input line 209.
@@ -1248,7 +1248,7 @@ Package pdftex.def Info: FIGURES/MAGN_FUERZAHILO.png  used on input line 209.
 [18
 
  </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_FUERZAHILO.png>]
-<FIGURES/MAGN_CAMPOCREADOHILO.jpg, id=557, 513.92pt x 384.43625pt>
+<FIGURES/MAGN_CAMPOCREADOHILO.jpg, id=552, 513.92pt x 384.43625pt>
 File: FIGURES/MAGN_CAMPOCREADOHILO.jpg Graphic file (type jpg)
 <use FIGURES/MAGN_CAMPOCREADOHILO.jpg>
 Package pdftex.def Info: FIGURES/MAGN_CAMPOCREADOHILO.jpg  used on input line 228.
@@ -1258,12 +1258,12 @@ Package pdftex.def Info: FIGURES/MAGN_CAMPOCREADOHILO.jpg  used on input line 22
 [19
 
  </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_CAMPOCREADOHILO.jpg>]
-<FIGURES/MAGN_HILOSINTERACCION.png, id=569, 683.55376pt x 757.83125pt>
+<FIGURES/MAGN_HILOSINTERACCION.png, id=564, 683.55376pt x 757.83125pt>
 File: FIGURES/MAGN_HILOSINTERACCION.png Graphic file (type png)
 <use FIGURES/MAGN_HILOSINTERACCION.png>
 Package pdftex.def Info: FIGURES/MAGN_HILOSINTERACCION.png  used on input line 278.
 (pdftex.def)             Requested size: 170.88802pt x 189.45735pt.
-<FIGURES/MAGN_HILOSINTERACCION2.png, id=570, 683.55376pt x 769.87625pt>
+<FIGURES/MAGN_HILOSINTERACCION2.png, id=565, 683.55376pt x 769.87625pt>
 File: FIGURES/MAGN_HILOSINTERACCION2.png Graphic file (type png)
 <use FIGURES/MAGN_HILOSINTERACCION2.png>
 Package pdftex.def Info: FIGURES/MAGN_HILOSINTERACCION2.png  used on input line 284.
@@ -1273,7 +1273,7 @@ Package pdftex.def Info: FIGURES/MAGN_HILOSINTERACCION2.png  used on input line 
 [20
 
  </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_HILOSINTERACCION.png> </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/MAGN_HILOSINTERACCION2.png>]
-<FIGURES/MAGN_AMPERIO.png, id=582, 767.86874pt x 684.5575pt>
+<FIGURES/MAGN_AMPERIO.png, id=577, 767.86874pt x 684.5575pt>
 File: FIGURES/MAGN_AMPERIO.png Graphic file (type png)
 <use FIGURES/MAGN_AMPERIO.png>
 Package pdftex.def Info: FIGURES/MAGN_AMPERIO.png  used on input line 304.
@@ -1288,11 +1288,11 @@ Package pdftex.def Info: FIGURES/MAGN_AMPERIO.png  used on input line 304.
 \openout2 = `"SECTIONS/4 - INDUCC.aux"'.
 
  (/Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/4 - INDUCC.tex
-<FIGURES/INDUCC_SITUACIONESFLUJO.jpg, id=597, 1748.5325pt x 769.87625pt>
+<FIGURES/INDUCC_SITUACIONESFLUJO.jpg, id=592, 1748.5325pt x 769.87625pt>
 File: FIGURES/INDUCC_SITUACIONESFLUJO.jpg Graphic file (type jpg)
 <use FIGURES/INDUCC_SITUACIONESFLUJO.jpg>
 Package pdftex.def Info: FIGURES/INDUCC_SITUACIONESFLUJO.jpg  used on input line 15.
-(pdftex.def)             Requested size: 349.7003pt x 153.97252pt.
+(pdftex.def)             Requested size: 297.2466pt x 130.87723pt.
 
 
 [23
@@ -1300,7 +1300,7 @@ Package pdftex.def Info: FIGURES/INDUCC_SITUACIONESFLUJO.jpg  used on input line
 
 
  </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/INDUCC_SITUACIONESFLUJO.jpg>]
-<FIGURES/INDUCC_EXPERIENCIAHENRY.png, id=607, 853.1875pt x 639.38875pt>
+<FIGURES/INDUCC_EXPERIENCIAHENRY.png, id=602, 853.1875pt x 639.38875pt>
 File: FIGURES/INDUCC_EXPERIENCIAHENRY.png Graphic file (type png)
 <use FIGURES/INDUCC_EXPERIENCIAHENRY.png>
 Package pdftex.def Info: FIGURES/INDUCC_EXPERIENCIAHENRY.png  used on input line 38.
@@ -1320,7 +1320,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.50}) 
                                                   \__shipout_drop_firstpage_...
 l.64 \clearpage
                 </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/INDUCC_EXPERIENCIAHENRY.png>]
-<FIGURES/INDUCC_EJEMPLO1.png, id=622, 1245.65375pt x 668.4975pt>
+<FIGURES/INDUCC_EJEMPLO1.png, id=617, 1245.65375pt x 668.4975pt>
 File: FIGURES/INDUCC_EJEMPLO1.png Graphic file (type png)
 <use FIGURES/INDUCC_EJEMPLO1.png>
 Package pdftex.def Info: FIGURES/INDUCC_EJEMPLO1.png  used on input line 71.
@@ -1330,12 +1330,12 @@ Package pdftex.def Info: FIGURES/INDUCC_EJEMPLO1.png  used on input line 71.
 [25
 
  </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/INDUCC_EJEMPLO1.png>]
-<FIGURES/INDUCC_ALTERNADOR.png, id=635, 205.9695pt x 150.86363pt>
+<FIGURES/INDUCC_ALTERNADOR.png, id=630, 205.9695pt x 150.86363pt>
 File: FIGURES/INDUCC_ALTERNADOR.png Graphic file (type png)
 <use FIGURES/INDUCC_ALTERNADOR.png>
 Package pdftex.def Info: FIGURES/INDUCC_ALTERNADOR.png  used on input line 130.
 (pdftex.def)             Requested size: 123.58264pt x 90.51886pt.
-<FIGURES/INDUCC_DINAMO.png, id=636, 205.9695pt x 150.86363pt>
+<FIGURES/INDUCC_DINAMO.png, id=631, 205.9695pt x 150.86363pt>
 File: FIGURES/INDUCC_DINAMO.png Graphic file (type png)
 <use FIGURES/INDUCC_DINAMO.png>
 Package pdftex.def Info: FIGURES/INDUCC_DINAMO.png  used on input line 136.
@@ -1343,8 +1343,14 @@ Package pdftex.def Info: FIGURES/INDUCC_DINAMO.png  used on input line 136.
 
 
 [26 </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/INDUCC_ALTERNADOR.png> </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/INDUCC_DINAMO.png>]
+<FIGURES/INDUCC_TRANS.jpg, id=647, 646.415pt x 446.66875pt>
+File: FIGURES/INDUCC_TRANS.jpg Graphic file (type jpg)
+<use FIGURES/INDUCC_TRANS.jpg>
+Package pdftex.def Info: FIGURES/INDUCC_TRANS.jpg  used on input line 158.
+(pdftex.def)             Requested size: 193.926pt x 134.00165pt.
 
-[27])
+
+[27 </Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/INDUCC_TRANS.jpg>])
 
 [28
 
@@ -1357,21 +1363,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 0310D59757B19E269B7DDACDFFE4CA69;11352.
+(rerunfilecheck)             Checksum: 2B71A5BE944CF5CCDAB3DA8A390AFE91;11111.
  ) 
 Here is how much of TeX's memory you used:
- 50810 strings out of 473190
- 1202261 string characters out of 5715799
+ 50832 strings out of 473190
+ 1202779 string characters out of 5715799
  1808418 words of memory out of 5000000
- 72792 multiletter control sequences out of 15000+600000
- 603372 words of font info for 284 fonts, out of 8000000 for 9000
+ 72811 multiletter control sequences out of 15000+600000
+ 603443 words of font info for 285 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,105p,1079b,1389s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc2488.pfb>
-Output written on "/Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.pdf" (31 pages, 5010800 bytes).
+Output written on "/Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.pdf" (31 pages, 5068279 bytes).
 PDF statistics:
  811 PDF objects out of 1000 (max. 8388607)
- 653 compressed objects within 7 object streams
- 197 named destinations out of 1000 (max. 500000)
- 86762 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 652 compressed objects within 7 object streams
+ 198 named destinations out of 1000 (max. 500000)
+ 86759 words of extra memory for PDF output out of 89155 (max. 10000000)
 

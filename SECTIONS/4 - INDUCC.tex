@@ -8,24 +8,24 @@ El \textbf{flujo magnético} ($\phi$) se define, en una \textbf{superficie}, com
 	\phi = \vec{B} \cdot \vec{S} \Longrightarrow \phi = B \cdot S \cdot \cos \varphi 
 \end{equation}
 
-El flujo magnético se mide en \textbf{Wéber} (\unit{\weber}).
+El flujo magnético se mide en \textbf{Wéber} (\unit{\weber}). Además, cuando se trata de una \textbf{bobina}, el flujo magnético $\varphi$ es $N$ veces el campo magnético de una espira, siendo $N$ el número de <<\textit{vueltas}>> que tiene la bobina.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.2]{INDUCC_SITUACIONESFLUJO}
+	\includegraphics[scale=0.17]{INDUCC_SITUACIONESFLUJO}
 	\caption{Situaciones del Flujo Magnético}
 	\label{INDUCC_SITUACIONESFLUJO}
 \end{figure}
 
-\subsection{Ley de Faraday--Lenz}
+\subsection{Ley de Faraday-Lenz}
 
-La Ley de Faraday--Lenz establece que cuando el \textbf{flujo magnético} que atraviesa un circuito varía, aparece una \textbf{fuerza electromotriz} (\textit{fem}) inducida. Su valor viene dado por:
+La Ley de Faraday-Lenz establece que cuando el \textbf{flujo magnético} que atraviesa un circuito varía, aparece una \textbf{fuerza electromotriz} (\textit{fem}) inducida. Su valor viene dado por:
 
 \begin{equation}\label{INDUCC_LEYFARADAYLENZ}
 \varepsilon = -\frac{d\phi}{dt}
 \end{equation}
 
-El signo \textbf{negativo} de la fórmula \ref{INDUCC_LEYFARADAYLENZ} indica que la \textbf{corriente} inducida \textbf{siempre se opone} al cambio de flujo que la produce (sentido de Lenz). La \textbf{fem} \(\varepsilon\) es la energía por unidad de carga que surge en el circuito debido a esa variación de flujo y se mide en voltios (\unit{\volt}). \textbf{Ejemplo:} Si un imán se acerca a una espira, el flujo magnético aumenta y aparece una corriente cuyo campo se opone a ese acercamiento. Si el imán se aleja, el flujo disminuye y la corriente inducida cambia de sentido para intentar mantener el flujo anterior.
+El signo \textbf{negativo} de la fórmula \ref{INDUCC_LEYFARADAYLENZ} indica que la \textbf{corriente} inducida \textbf{siempre se opone} al cambio de flujo que la produce (sentido de Lenz). La \textbf{fem} \(\varepsilon\) es la energía por unidad de carga que surge en el circuito debido a esa variación de flujo y se mide en voltios (\unit{\volt}). \textbf{Ejemplo:} Si un imán se \textbf{acerca} a una espira, el flujo magnético aumenta y aparece una corriente cuyo campo se \textbf{opone} a ese acercamiento. Si el imán se \textbf{aleja}, el flujo \textbf{disminuye} y la corriente inducida \textbf{cambia} de \textbf{sentido} para intentar mantener el flujo \textbf{anterior}.
 
 \clearpage
 
@@ -143,13 +143,22 @@ Una dinamo es un \textbf{generador} de corriente \textbf{continua}, denominada a
 
 Tanto en \ref{INDUCC_ALTERNADOR} como en \ref{INDUCC_DINAMO}, el generador ha dado una \textbf{vuelta entera} ($2\pi \unit{\radian}$), es decir, ha pasado \textbf{dos veces} por \SI{0}{\volt}.
 
-\subsubsection{Inducción Mutua y Autoinducción}
+\paragraph{Transformador}
 
-\paragraph{Inducción Mutua}
+Un transformador es un dispositivo empleado para \textbf{modificar} el \textbf{voltaje} o la \textbf{intensidad} de una \textbf{corriente alterna}. Éste consta de dos \textbf{bobinas} enrolladas en torno a un \textbf{núcleo} de hierro, aisladas entre sí. Por una de las bobinas se hace pasar una corriente de \textbf{entrada} (llamada \textbf{primaria}) con un numero $N_p$ ($N_2$ en la figura \ref{INDUCC_TRANS}) de espiras. En la otra (llamada \textbf{secundaria}) obtendremos la corriente de \textbf{salida} con un numero $N_s$ ($N_1$ en la figura \ref{INDUCC_TRANS}) de espiras.
 
-Se produce una \textbf{inducción mutua} cuando dos circuitos son capaces de \textbf{inducir} corriente el \textbf{uno} en el \textbf{otro}. 
+De las ecuaciones de la fem y del flujo, podemos hallar la ecuación del transformador:
 
+\begin{equation}\label{INDUCC_TRANSFORMADOR}
+	\frac{V_s}{V_p} = \frac{N_s}{N_p} = \frac{I_p}{I_s}
+\end{equation}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{INDUCC_TRANS}
+	\caption{Esquema de un transformador}
+	\label{INDUCC_TRANS}
+\end{figure}
 
 \begin{mybox}{Conceptos Clave}
 	\begin{itemize}
