@@ -391,6 +391,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cleveref/cleveref.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cleveref/cleveref.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybabel.code.tex
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybabel.code.tex
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.aux
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.aux
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.aux
@@ -406,6 +411,9 @@ INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SE
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/4 - INDUCC.aux
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/4 - INDUCC.aux
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/4 - INDUCC.aux
+INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.aux
+INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.aux
+INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.aux
 OUTPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.aux
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -643,6 +651,12 @@ INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FI
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/INDUCC_TRANS.jpg
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/INDUCC_TRANS.jpg
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/FIGURES/INDUCC_TRANS.jpg
+INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.tex
+INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.tex
+OUTPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.aux
+INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.tex
+INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.tex
+INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.tex
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.aux
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/1 - GRAV.aux
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/1 - GRAV.aux
@@ -656,6 +670,9 @@ INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SE
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/4 - INDUCC.aux
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/4 - INDUCC.aux
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/4 - INDUCC.aux
+INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.aux
+INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.aux
+INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/SECTIONS/5 - ONDAS-SONIDO.aux
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.out
 INPUT /Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.out
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

@@ -12,7 +12,7 @@ dentro de `SECTIONS/` están todos los temas principales de PAU:
 - [x] `2 - ELECT.tex`: electricidad y campo eléctrico.
 - [x] `3 - MAGN.tex`: magnetismo y campo magnético.
 - [x] `4 - INDUCC.tex`: inducción electromagnética.
-- [ ] `5 - ONDAS-SONIDO.tex`: ondas mecánicas como las de sonido.
+- [x] `5 - ONDAS-SONIDO.tex`: ondas mecánicas como las de sonido.
 - [ ] `6 - ONDAS-EM.tex`: ondas electromagnéticas.
 - [ ] `7 - OPT.tex`: óptica geométrica.
 - [ ] `8 - RELAT.tex`: relatividad y la _nueva física_.
