@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.12)  8 JAN 2026 21:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.12)  9 JAN 2026 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1375,7 +1375,7 @@ Package pdftex.def Info: FIGURES/INDUCC_TRANS.jpg  used on input line 158.
 <FIGURES/ONDASS_MUELLEGRAFICO.png, id=696, 250.9375pt x 351.3125pt>
 File: FIGURES/ONDASS_MUELLEGRAFICO.png Graphic file (type png)
 <use FIGURES/ONDASS_MUELLEGRAFICO.png>
-Package pdftex.def Info: FIGURES/ONDASS_MUELLEGRAFICO.png  used on input line 85.
+Package pdftex.def Info: FIGURES/ONDASS_MUELLEGRAFICO.png  used on input line 84.
 (pdftex.def)             Requested size: 125.46843pt x 175.6558pt.
 )
 
@@ -1391,15 +1391,15 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: AA8D538DECE74880BACCE98E63C140C3;11851.
  ) 
 Here is how much of TeX's memory you used:
- 51590 strings out of 473190
- 1221825 string characters out of 5715799
+ 51588 strings out of 473190
+ 1221749 string characters out of 5715799
  1809911 words of memory out of 5000000
- 73531 multiletter control sequences out of 15000+600000
+ 73529 multiletter control sequences out of 15000+600000
  603631 words of font info for 287 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,105p,1079b,1389s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc2488.pfb>
-Output written on "/Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.pdf" (33 pages, 5097393 bytes).
+Output written on "/Users/manusanchezabian/Desktop/2º bachillerato/física/APUNTES 2 BACH/document.pdf" (33 pages, 5097378 bytes).
 PDF statistics:
  862 PDF objects out of 1000 (max. 8388607)
  699 compressed objects within 7 object streams
