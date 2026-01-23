@@ -1,6 +1,6 @@
 % preámbulo
 
-\documentclass[titlepage,12pt]{article} %% tamaño del texto
+\documentclass[titlepage,12pt,twoside]{article} %% tamaño del texto
 \usepackage[spanish]{babel} %% idioma
 \usepackage[a4paper]{geometry} %% márgenes
 \usepackage[utf8]{inputenc} %% soporte para UTF-8
@@ -22,6 +22,9 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{pgfplots}
+
+%\includeonly{SECTIONS/6 - ONDAS1}
+
 
 \usepackage[]{titlesec} %cambiar espacios en secciones
 \titlespacing*{\section}{0pt}{1.2ex}{1.2ex}
@@ -78,6 +81,9 @@
 {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 
+\newif\ifprint
+\printtrue   % ← ACTIVA páginas impares
+%\printfalse % ← DESACTIVA páginas impares
 
 \begin{document}
 
@@ -95,23 +101,33 @@
 
 % -------------- CAMPO GRAVITATORIO --------------
 
+\cleardoublepage
 \include{SECTIONS/1 - GRAV}
 
 % -------------- CAMPO ELÉCTRICO --------------
 
+\cleardoublepage
 \include{SECTIONS/2 - ELECT}
 
 % -------------- CAMPO MAGNÉTICO --------------
 
+\cleardoublepage
 \include{SECTIONS/3 - MAGN}
 
 % -------------- INDUCCIÓN ELECTROMAGNÉTICA --------------
 
+\cleardoublepage
 \include{SECTIONS/4 - INDUCC}
 
 % -------------- MOVIMIENTO ARMÓNICO SIMPLE --------------
 
+\cleardoublepage
 \include{SECTIONS/5 - MAS}
+
+% -------------- ONDAS. EL SONIDO --------------
+
+\cleardoublepage
+\include{SECTIONS/6 - ONDAS1}
 
 
 \end{document}

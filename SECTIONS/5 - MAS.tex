@@ -32,7 +32,7 @@ Donde:
 \begin{enumerate}
     \item $x(t)$: Elongación (\unit{m})
     \item $A$: Amplitud (\unit{m})
-    \item $\omega$: Frecuencia o velocidad angular (\unit{\radian\per\second})
+    \item $\omega$: Velocidad angular (\unit{\radian\per\second})
     \item $\varphi_0$: Fase inicial o desfase (\unit{\radian})
     \item $\omega \cdot t + \varphi_0$: Fase (\unit{\radian})
 \end{enumerate}
@@ -57,66 +57,24 @@ A partir de éstas podemos obtener la velocidad y la aceleración en función de
     a(x) = - \omega^2 \cdot x
 \end{equation}
 
-\subsubsection{Representación Gráfica del MAS}
+La ecuación \ref{MAS_VELOCIDADPOSICION} puede deducirse a partir de \ref{MAS_ECUACION} y \ref{MAS_VELOCIDAD}, elevando ambas al cuadrado y utilizando la identidad trigonométrica
+$\sin^2\varphi + \cos^2\varphi = 1$, se obtiene:
 
-% \begin{figure}[h!]
-%     \centering
-%     \begin{tikzpicture}[scale=1.1]
-%         % Parámetros
-%         \def\A{1}
-%         \def\T{4}
-%         \def\w{2*pi/\T}
+\begin{equation}
+v^2 = \omega^2 (A^2 - x^2)
+\end{equation}
 
-%         % Ejes
-%         \draw[->, thick] (0,-1) -- (0,1) node[above] {};
-%         \draw[->, thick] (-0.2,0) -- (10,0) node[right] {$t$};
+\subsection{Dinámica del Movimiento Armónico Simple}
 
-%         % Marca de amplitud A
-%         \draw[thick] (-0.15,\A) -- (0.15,\A);
-%         \node[left] at (0,\A) {$A$};
+\subsubsection{Dinámica y Periodo de un Muelle}
 
-%         % Onda MAS
-%         \draw[very thick, red]
-%         plot[domain=0:10, samples=200]
-%         (\x,{\A*sin(\w*\x r)});
-
-%         % Marcas de T y 2T
-%         \draw[thick] (\T,0.15) -- (\T,-0.15);
-%         \node[below] at (\T,-0.2) {$T$};
-
-%         \draw[thick] (2*\T,0.15) -- (2*\T,-0.15);
-%         \node[below] at (2*\T,-0.2) {$2T$};
-
-%         % Línea vertical discontinua en T
-%         \draw[dashed] (\T,-1) -- (\T,1);
-
-%         % Flecha periodo
-%         \draw[<->, thick] (0,-1) -- (\T,-1);
-%         \node[below] at (\T/2,-1) {$T = \dfrac{2\pi}{\omega}$};
-%     \end{tikzpicture}
-%     \caption{Representación gráfica del MAS de la amplitud con respecto del tiempo}
-%     \label{MAS_GRFICAMAS}
-% \end{figure}
-
-\begin{figure}[H]
+\begin{wrapfigure}{L}{0.4\textwidth}
 	\centering
-	\includegraphics[scale=0.5]{MAS_MUELLE}
+	\includegraphics[scale=0.43]{MAS_MUELLE}
 	\caption{Muelle oscilante simple}
 	\label{MAS_MUELLE}
-\end{figure}
+\end{wrapfigure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.5]{MAS_PENDULO}
-	\caption{Péndulo simple}
-	\label{MAS_PENDULO}
-\end{figure}
-
-\clearpage
-
-\subsection{Dinámica del movimiento armónico simple}
-
-\subsubsection{Dinámica y periodo de un muelle}
 
 Ley de Hooke:
 
@@ -136,7 +94,14 @@ Despejando la fórmula \ref{MAS_K} obtenemos:
     T = 2\pi \cdot \sqrt{\frac{m}{k}}
 \end{equation}
 
-\subsubsection{Dinámica y periodo de un péndulo simple}
+\subsubsection{Dinámica y Periodo de un Péndulo Simple}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{MAS_PENDULO}
+	\caption{Péndulo simple}
+	\label{MAS_PENDULO}
+\end{figure}
 
 En un péndulo simple, una masa $m$ atada a un hilo oscila respecto a un punto de equilibrio bajo el efecto de un campo gravitatorio $g$. El periodo se puede calcular mediante:
 
@@ -144,21 +109,100 @@ En un péndulo simple, una masa $m$ atada a un hilo oscila respecto a un punto d
     T = 2\pi \cdot \sqrt{\frac{L}{g}}
 \end{equation}
 
-\subsection{Energía en el movimiento armónico simple}
+\subsection{Energías en el Movimiento Armónico Simple}
 
-Una partícula en un MAS tendrá energía potencial y cinética:
+Una partícula en un MAS tendrá energía tanto potencial como cinética:
 
-\begin{equation}\label{MAS_ENERGIAPOTENCIAL}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{MAS_GRAFICA_ENERGIAS}
+    \caption{Graficas de las energías en el MAS}
+    \label{MAS_GRAFICA_ENERGIAS}
+\end{figure}
+
+\subsubsection{Energías en el MAS según la posición}
+
+\begin{equation}\label{MAS_ENERGIAPOTENCIALPOSICION}
     E_p = \frac{1}{2} \cdot k \cdot x^2
 \end{equation}
 
-\begin{equation}\label{MAS_ENERGIACINETICA}
-    E_c = \frac{1}{2} \cdot m \cdot v^2
+\begin{equation}\label{MAS_ENERGIACINETICAPOSICION}
+    E_c = \frac{1}{2} \cdot m \cdot \omega^2 \cdot (A^2 - x^2)
 \end{equation}
 
-Si la partícula se encuentra en $x = A$, la velocidad será 0, por lo que su energía potencial durante todo su movimiento será:
+\subsubsection{Energías en el MAS según el tiempo}
 
-\begin{equation}\label{MAS_ENERGIAPOTENCIALMAXIMA}
-    E_p = \frac{1}{2} \cdot k \cdot A^2
+\begin{equation}\label{MAS_ENERGIAPOTENCIALTIEMPO}
+    E_p = \frac{1}{2} \cdot k \cdot A^2 \cdot \sin^2(\omega t + \varphi_0)
 \end{equation}
-    
+
+\begin{equation}\label{MAS_ENERGIACINETICATIEMPO}
+    E_c = \frac{1}{2} \cdot m \cdot \omega^2 \cdot A^2 \cdot \cos^2(\omega t + \varphi_0)
+\end{equation}
+
+Si la partícula se encuentra en $x = A$, la velocidad será 0, por lo que su energía potencial durante todo su movimiento será: $E_m = \frac{1}{2} \cdot k \cdot A^2$. Como la energía mecánica no varía en todo el movimiento, la energía mecánica en todo momento del movimiento será:
+
+\begin{equation}\label{MAS_ENERGIAMECANICAMAXIMA}
+    E_m = \frac{1}{2} \cdot k \cdot A^2
+\end{equation}
+
+\begin{mybox}{Conceptos Clave: Movimiento Armónico Simple}
+	\begin{itemize}
+		\item \textbf{Estados límite:} En $x=\pm A$ la velocidad es nula y la aceleración máxima; en $x=0$ la aceleración es nula y la velocidad máxima. Esto permite razonar el movimiento sin cálculos.
+		
+		\item \textbf{Uso de la fase:} La fase inicial $\varphi_0$ se determina a partir de las condiciones iniciales $(x_0, v_0)$ y fija completamente el movimiento.
+		
+		\item \textbf{Evitar errores típicos:} El signo de $v$ indica el \textbf{sentido del movimiento}, no su módulo; el signo de $x$ determina siempre el signo de la aceleración.
+	\end{itemize}
+\end{mybox}
+
+\clearpage
+
+\subsection{Resumen de Fórmulas}
+
+\begin{table}[H]
+	\centering
+	\renewcommand{\arraystretch}{1.5}
+	\setlength{\tabcolsep}{6pt}
+	\setlength{\aboverulesep}{0pt}
+	\setlength{\belowrulesep}{0pt}
+	\renewcommand{\tabularxcolumn}[1]{m{#1}}
+	\rowcolors{2}{gray!10}{white}
+	\begin{tabularx}{\textwidth}{
+			>{\centering\arraybackslash}m{5cm}
+			>{\centering\arraybackslash}X
+			>{\centering\arraybackslash}m{3cm}}
+		\toprule
+		\rowcolor{gray!25}
+		\textbf{Magnitud / Concepto} & \textbf{Expresión} & \textbf{Unidades (SI)} \\
+		\midrule
+	
+		\textsc{Ecuación del MAS} & $\displaystyle x(t) = A \cdot \sin(\omega t + \varphi_0)$ & \unit{\meter} \\
+
+		\textsc{Velocidad Angular} & $\displaystyle \omega = \frac{2\pi}{T}$ & \unit{\radian\per\second} \\
+
+		\textsc{Velocidad} & $\displaystyle v(t) = A \cdot \omega \cdot \cos(\omega t + \varphi_0)$ & \unit{\meter\per\second} \\
+
+		\textsc{Aceleración} & $\displaystyle a(t) = -A \cdot \omega^2 \cdot \sin(\omega t + \varphi_0)$ & \unit{\meter\per\second\squared} \\
+
+		\textsc{Velocidad en función de $x$} & $\displaystyle v(x) = \pm \omega \sqrt{A^2 - x^2}$ & \unit{\meter\per\second} \\
+
+		\textsc{Aceleración en función de $x$} & $\displaystyle a(x) = -\omega^2 x$ & \unit{\meter\per\second\squared} \\
+
+		\textsc{Ley de Hooke} & $\displaystyle F = -k \cdot x$ & \unit{\newton} \\
+
+		\textsc{Período de un Muelle} & $\displaystyle T = 2\pi \sqrt{\frac{m}{k}}$ & \unit{\second} \\
+
+		\textsc{Período del péndulo simple} & $\displaystyle T = 2\pi \sqrt{\frac{L}{g}}$ & \unit{\second} \\
+
+		\textsc{Energía Potencial en el MAS} & $\displaystyle E_p = \frac{1}{2} k x^2$ & \unit{\joule} \\
+
+		\textsc{Energía Cinética en el MAS} & $\displaystyle E_c = \frac{1}{2} m v^2$ & \unit{\joule} \\
+
+		\textsc{Energía Mecánica en el MAS} & $\displaystyle E_m = \frac{1}{2} k A^2$ & \unit{\joule} \\
+
+		\bottomrule
+	\end{tabularx}
+	\caption{Formulario del Movimiento Armónico Simple}
+	\label{MAS_TABLAFORMULARIO}
+\end{table}
