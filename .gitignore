@@ -23,3 +23,17 @@ Temporary Items
 .synctex.gz(busy)
 .log
 .out
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+document.fdb_latexmk
+document.log
