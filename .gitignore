@@ -39,3 +39,4 @@ document.fdb_latexmk
 document.log
 document.synctex.gz
 document.aux
+.gitignore
