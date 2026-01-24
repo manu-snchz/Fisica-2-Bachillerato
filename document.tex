@@ -23,6 +23,11 @@
 \usepackage{subcaption}
 \usepackage{pgfplots}
 
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+
 %\includeonly{SECTIONS/6 - ONDAS1} 
 
 
@@ -80,23 +85,16 @@
 \titlespacing*{\paragraph}
 {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
-
-\newif\ifprint
-\printtrue   % ← ACTIVA páginas impares
-%\printfalse % ← DESACTIVA páginas impares
-
 \begin{document}
+
+\raggedbottom
 
 \maketitle
 \thispagestyle{empty}
-\setcounter{page}{0}
-\thispagestyle{empty}
-\setcounter{page}{0}
 \tableofcontents
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 \thispagestyle{empty}
 \clearpage
-\setcounter{page}{1}
 
 
 % -------------- CAMPO GRAVITATORIO --------------

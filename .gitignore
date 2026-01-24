@@ -1,11 +1,25 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
 Icon?
-# LaTeX build files
-*.aux
-*.fdb_latexmk
-*.fls
-*.log
-*.out
-*.pdf
-*.synctex.gz
-*.toc
-*icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+.aux
+.fls
+.synctex(busy)
+.synctex.gz(busy)
+.synctex.gz(busy)
+.log
+.out
